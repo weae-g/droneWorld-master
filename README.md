@@ -200,94 +200,94 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Собирает приложение для производства в папку `build`.<br>
+Он правильно объединяет React в режиме производства и оптимизирует сборку для лучшей производительности.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Сборка минимизирована, а имена файлов включают хэши.<br>
+Ваше приложение готово к развертыванию!
 
-See the section about [deployment](#deployment) for more information.
+Подробнее см. в разделе о [развертывании](#deployment).
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Примечание: это односторонняя операция. После того, как вы `eject`, вы не сможете вернуться назад!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Если вы не удовлетворены инструментом сборки и выбором конфигурации, вы можете `eject` в любое время. Эта команда удалит единственную зависимость сборки из вашего проекта.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Вместо этого она скопирует все файлы конфигурации и транзитивные зависимости (Webpack, Babel, ESLint и т. д.) прямо в ваш проект, чтобы вы имели полный контроль над ними. Все команды, кроме `eject`, по-прежнему будут работать, но они будут указывать на скопированные скрипты, чтобы вы могли их настраивать. На этом этапе вы сами по себе.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Вам никогда не нужно использовать `eject`. Курируемый набор функций подходит для небольших и средних развертываний, и вы не должны чувствовать себя обязанными использовать эту функцию. Однако мы понимаем, что этот инструмент будет бесполезен, если вы не сможете настроить его, когда будете к этому готовы.
 
-## Supported Browsers
+## Поддерживаемые браузеры
 
-By default, the generated project uses the latest version of React.
+По умолчанию сгенерированный проект использует последнюю версию React.
 
-You can refer [to the React documentation](https://reactjs.org/docs/react-dom.html#browser-support) for more information about supported browsers.
+Вы можете обратиться [к документации React](https://reactjs.org/docs/react-dom.html#browser-support) для получения дополнительной информации о поддерживаемых браузерах.
 
-## Supported Language Features and Polyfills
+## Поддерживаемые языковые возможности и полифиллы
 
-This project supports a superset of the latest JavaScript standard.<br>
-In addition to [ES6](https://github.com/lukehoban/es6features) syntax features, it also supports:
+Этот проект поддерживает надмножество новейшего стандарта JavaScript.<br>
+В дополнение к синтаксическим возможностям [ES6](https://github.com/lukehoban/es6features) он также поддерживает:
 
-* [Exponentiation Operator](https://github.com/rwaldron/exponentiation-operator) (ES2016).
+* [Оператор возведения в степень](https://github.com/rwaldron/exponentiation-operator) (ES2016).
 * [Async/await](https://github.com/tc39/ecmascript-asyncawait) (ES2017).
-* [Object Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread) (stage 3 proposal).
-* [Dynamic import()](https://github.com/tc39/proposal-dynamic-import) (stage 3 proposal)
-* [Class Fields and Static Properties](https://github.com/tc39/proposal-class-public-fields) (part of stage 3 proposal).
-* [JSX](https://facebook.github.io/react/docs/introducing-jsx.html) and [Flow](https://flowtype.org/) syntax.
+* [Свойства Object Rest/Spread](https://github.com/sebmarkbage/ecmascript-rest-spread) (предложение этапа 3).
+* [Динамический импорт()](https://github.com/tc39/proposal-dynamic-import) (предложение этапа 3)
+* [Поля классов и статические свойства](https://github.com/tc39/proposal-class-public-fields) (часть предложения этапа 3).
+* Синтаксис [JSX](https://facebook.github.io/react/docs/introducing-jsx.html) и [Flow](https://flowtype.org/).
 
-Learn more about [different proposal stages](https://babeljs.io/docs/plugins/#presets-stage-x-experimental-presets-).
+Узнайте больше о [различных этапах разработки предложений](https://babeljs.io/docs/plugins/#presets-stage-x-experimental-presets-).
 
-While we recommend using experimental proposals with some caution, Facebook heavily uses these features in the product code, so we intend to provide [codemods](https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb) if any of these proposals change in the future.
+Хотя мы рекомендуем использовать экспериментальные предложения с некоторой осторожностью, Facebook активно использует эти функции в коде продукта, поэтому мы намерены предоставить [codemods](https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb), если какие-либо из этих предложений изменятся в будущем.
 
-Note that **the project only includes a few ES6 [polyfills](https://en.wikipedia.org/wiki/Polyfill)**:
+Обратите внимание, что ** проект включает в себя только несколько ES6 [полифилл](https://en.wikipedia.org/wiki/Polyfill)**:
 
-* [`Object.assign()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) via [`object-assign`](https://github.com/sindresorhus/object-assign).
-* [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) via [`promise`](https://github.com/then/promise).
-* [`fetch()`](https://developer.mozilla.org/en/docs/Web/API/Fetch_API) via [`whatwg-fetch`](https://github.com/github/fetch).
+* [`Object.assign()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) через [`object-assign`](https://github.com/sindresorhus/object-assign).
+* [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) через [`обещание`](https://github.com/then/promise).
+* [`fetch()`](https://developer.mozilla.org/en/docs/Web/API/Fetch_API) через [`whatwg-fetch`](https://github.com/github/fetch).
 
-If you use any other ES6+ features that need **runtime support** (such as `Array.from()` or `Symbol`), make sure you are including the appropriate polyfills manually, or that the browsers you are targeting already support them.
+Если вы используете какие-либо другие функции ES6+, для которых требуется поддержка во время выполнения (например, "Array.from()" или "Symbol"), убедитесь, что вы включили соответствующие полифиллы вручную или что браузеры, на которые вы ориентируетесь, уже поддерживают их.
 
-Also note that using some newer syntax features like `for...of` or `[...nonArrayValue]` causes Babel to emit code that depends on ES6 runtime features and might not work without a polyfill. When in doubt, use [Babel REPL](https://babeljs.io/repl/) to see what any specific syntax compiles down to.
+Также обратите внимание, что использование некоторых новых синтаксических функций, таких как "for...of" или "[...nonArrayValue]", приводит к тому, что Babel выдает код, который зависит от функций среды выполнения ES6 и может не работать без polyfill. Если вы сомневаетесь, используйте [Babel REPL](https://babeljs.io/repl/), чтобы посмотреть, к чему сводится любой конкретный синтаксис.
 
-## Syntax Highlighting in the Editor
+## Подсветка синтаксиса в редакторе
 
-To configure the syntax highlighting in your favorite text editor, head to the [relevant Babel documentation page](https://babeljs.io/docs/editors) and follow the instructions. Some of the most popular editors are covered.
+Чтобы настроить подсветку синтаксиса в вашем любимом текстовом редакторе, перейдите на [соответствующую страницу документации по Babel](https://babeljs.io/docs/editors) и следуйте инструкциям. Здесь описаны некоторые из наиболее популярных редакторов.
 
-## Displaying Lint Output in the Editor
+## Отображение выходных данных Lint в редакторе
 
->Note: this feature is available with `react-scripts@0.2.0` and higher.<br>
->It also only works with npm 3 or higher.
+>Примечание: эта функция доступна в версиях `react-scripts@0.2.0` и выше.<br>
+>Она также работает только с npm 3 или выше.
 
-Some editors, including Sublime Text, Atom, and Visual Studio Code, provide plugins for ESLint.
+Некоторые редакторы, включая Sublime Text, Atom и Visual Studio Code, предоставляют плагины для ESLint.
 
-They are not required for linting. You should see the linter output right in your terminal as well as the browser console. However, if you prefer the lint results to appear right in your editor, there are some extra steps you can do.
+Они не требуются для linting. Вы должны увидеть результаты linter прямо в вашем терминале, а также в консоли браузера. Однако, если вы предпочитаете, чтобы результаты lint отображались прямо в вашем редакторе, вы можете выполнить несколько дополнительных действий.
 
-You would need to install an ESLint plugin for your editor first. Then, add a file called `.eslintrc` to the project root:
+Сначала вам потребуется установить плагин ESLint для вашего редактора. Затем добавьте файл с именем ".eslintrc" в корневой каталог проекта:
 
 ```js
 {
-  "extends": "react-app"
+  "расширяет": "react-app"
 }
 ```
 
-Now your editor should report the linting warnings.
+Теперь ваш редактор должен сообщить о предупреждениях, связанных с linting.
 
-Note that even if you edit your `.eslintrc` file further, these changes will **only affect the editor integration**. They won’t affect the terminal and in-browser lint output. This is because Create React App intentionally provides a minimal set of rules that find common mistakes.
+Обратите внимание, что даже если вы продолжите редактировать свой файл `.eslintrc`, эти изменения ** повлияют только на интеграцию редактора**. Они не повлияют на вывод lint в терминале и в браузере. Это связано с тем, что приложение Create React намеренно содержит минимальный набор правил, которые позволяют находить распространенные ошибки.
 
-If you want to enforce a coding style for your project, consider using [Prettier](https://github.com/jlongster/prettier) instead of ESLint style rules.
+Если вы хотите применить стиль программирования для своего проекта, рассмотрите возможность использования [Красивее](https://github.com/jlongster/prettier) вместо правил стиля ESLint.
 
-## Debugging in the Editor
+## Отладка в редакторе
 
-**This feature is currently only supported by [Visual Studio Code](https://code.visualstudio.com) and [WebStorm](https://www.jetbrains.com/webstorm/).**
+**В настоящее время эта функция поддерживается только [Visual Studio Code](https://code.visualstudio.com) и [WebStorm](https://www.jetbrains.com/webstorm/).**
 
-Visual Studio Code and WebStorm support debugging out of the box with Create React App. This enables you as a developer to write and debug your React code without leaving the editor, and most importantly it enables you to have a continuous development workflow, where context switching is minimal, as you don’t have to switch between tools.
+Visual Studio Code и WebStorm поддерживают отладку "из коробки" с помощью Create React App. Это позволяет вам, как разработчику, писать и отлаживать свой код React, не выходя из редактора, и, что наиболее важно, обеспечивает непрерывный рабочий процесс разработки, при котором переключение контекста сведено к минимуму, поскольку вам не нужно переключаться между инструментами.
 
 ### Visual Studio Code
 
-You would need to have the latest version of [VS Code](https://code.visualstudio.com) and VS Code [Chrome Debugger Extension](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) installed.
+У вас должна быть установлена последняя версия [VS Code](https://code.visualstudio.com) и VS Code [Расширение для отладчика Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome).
 
-Then add the block below to your `launch.json` file and put it inside the `.vscode` folder in your app’s root directory.
+Затем добавьте приведенный ниже блок в свой файл "launch.json" и поместите его в папку ".vscode" в корневом каталоге вашего приложения.
 
 ```json
 {
@@ -304,47 +304,47 @@ Then add the block below to your `launch.json` file and put it inside the `.vsco
   }]
 }
 ```
->Note: the URL may be different if you've made adjustments via the [HOST or PORT environment variables](#advanced-configuration).
+>Примечание: URL-адрес может отличаться, если вы внесли изменения с помощью [переменных среды ХОСТА или порта] (#расширенная настройка).
 
-Start your app by running `npm start`, and start debugging in VS Code by pressing `F5` or by clicking the green debug icon. You can now write code, set breakpoints, make changes to the code, and debug your newly modified code—all from your editor.
+Запустите приложение, запустив "npm start", и начните отладку в VS Code, нажав `F5` или щелкнув зеленый значок отладки. Теперь вы можете писать код, устанавливать точки останова, вносить изменения в код и отлаживать только что измененный код — и все это из своего редактора.
 
-Having problems with VS Code Debugging? Please see their [troubleshooting guide](https://github.com/Microsoft/vscode-chrome-debug/blob/master/README.md#troubleshooting).
+Возникли проблемы с отладкой VS Code? Пожалуйста, ознакомьтесь с их [руководством по устранению неполадок](https://github.com/Microsoft/vscode-chrome-debug/blob/master/README.md#troubleshooting).
 
 ### WebStorm
 
-You would need to have [WebStorm](https://www.jetbrains.com/webstorm/) and [JetBrains IDE Support](https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji) Chrome extension installed.
+Вам потребуется установить расширение для Chrome [WebStorm](https://www.jetbrains.com/webstorm/) и [JetBrains IDE Support](https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji).
 
-In the WebStorm menu `Run` select `Edit Configurations...`. Then click `+` and select `JavaScript Debug`. Paste `http://localhost:3000` into the URL field and save the configuration.
+В меню WebStorm `Выполнить" выберите "Редактировать конфигурации...". Затем нажмите "+" и выберите "Отладка JavaScript". Вставьте "http://localhost:3000` в поле URL и сохраните конфигурацию.
 
->Note: the URL may be different if you've made adjustments via the [HOST or PORT environment variables](#advanced-configuration).
+>Примечание: URL может отличаться, если вы внесли изменения с помощью [переменных среды хоста или порта] (#расширенная настройка).
 
-Start your app by running `npm start`, then press `^D` on macOS or `F9` on Windows and Linux or click the green debug icon to start debugging in WebStorm.
+Запустите свое приложение, запустив "npm start", затем нажмите "^D" в macOS или "F9" в Windows и Linux или щелкните зеленый значок отладки, чтобы начать отладку в WebStorm.
 
-The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine. 
+Таким же образом вы можете отлаживать свое приложение в IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro и RubyMine.
 
-## Formatting Code Automatically
+## Автоматическое форматирование кода
 
-Prettier is an opinionated code formatter with support for JavaScript, CSS and JSON. With Prettier you can format the code you write automatically to ensure a code style within your project. See the [Prettier's GitHub page](https://github.com/prettier/prettier) for more information, and look at this [page to see it in action](https://prettier.github.io/prettier/).
+Prettier - это программа для самостоятельного формирования кода с поддержкой JavaScript, CSS и JSON. С помощью Prettier вы можете автоматически форматировать код, который вы пишете, чтобы обеспечить единый стиль кода в вашем проекте. Смотрите [Более красивую страницу на GitHub] (https://github.com/prettier/prettier) для получения дополнительной информации и посмотрите на эту [страницу, чтобы увидеть ее в действии] (https://prettier.github.io/prettier/).
 
-To format our code whenever we make a commit in git, we need to install the following dependencies:
+Чтобы форматировать наш код всякий раз, когда мы выполняем фиксацию в git, нам нужно установить следующие зависимости:
 
 ```sh
 npm install --save husky lint-staged prettier
 ```
 
-Alternatively you may use `yarn`:
+В качестве альтернативы вы можете использовать "пряжу`:
 
 ```sh
 yarn add husky lint-staged prettier
 ```
 
-* `husky` makes it easy to use githooks as if they are npm scripts.
-* `lint-staged` allows us to run scripts on staged files in git. See this [blog post about lint-staged to learn more about it](https://medium.com/@okonetchnikov/make-linting-great-again-f3890e1ad6b8).
-* `prettier` is the JavaScript formatter we will run before commits.
+* `* `husky` упрощает использование git-перехватчиков, как если бы они были скриптами npm.
+* "lint-staged" позволяет нам запускать скрипты для промежуточных файлов в git. Смотрите это [сообщение в блоге о lint-staged, чтобы узнать больше об этом](https://medium.com/@okonetchnikov/make-linting-great-again-f3890e1ad6b8).
+* "красивее" - это средство форматирования JavaScript, которое мы будем запускать перед фиксацией.
 
-Now we can make sure every file is formatted correctly by adding a few lines to the `package.json` in the project root.
+Теперь мы можем убедиться, что каждый файл отформатирован правильно, добавив несколько строк в "package.json" в корневой папке проекта.
 
-Add the following line to `scripts` section:
+Добавьте следующую строку в раздел `скрипты`:
 
 ```diff
   "scripts": {
@@ -353,7 +353,7 @@ Add the following line to `scripts` section:
     "build": "react-scripts build",
 ```
 
-Next we add a 'lint-staged' field to the `package.json`, for example:
+Затем мы добавляем поле "поэтапный ввод" в `package.json`, например:
 
 ```diff
   "dependencies": {
@@ -368,29 +368,29 @@ Next we add a 'lint-staged' field to the `package.json`, for example:
   "scripts": {
 ```
 
-Now, whenever you make a commit, Prettier will format the changed files automatically. You can also run `./node_modules/.bin/prettier --single-quote --write "src/**/*.{js,jsx,json,css}"` to format your entire project for the first time.
+Теперь, всякий раз, когда вы делаете фиксацию, Prettier автоматически форматирует измененные файлы. Вы также можете запустить `./node_modules/.bin/prettier - одинарные кавычки -написать "src/**/*.{js,jsx,json,css}", чтобы отформатировать весь ваш проект в первый раз.
 
-Next you might want to integrate Prettier in your favorite editor. Read the section on [Editor Integration](https://prettier.io/docs/en/editors.html) on the Prettier GitHub page.
+Затем вы, возможно, захотите интегрировать Prettier в свой любимый редактор. Прочитайте раздел [Интеграция с редактором](https://prettier.io/docs/en/editors.html) на странице Prettier на GitHub.
 
-## Changing the Page `<title>`
+## Измените название страницы.
 
-You can find the source HTML file in the `public` folder of the generated project. You may edit the `<title>` tag in it to change the title from “React App” to anything else.
+Вы можете найти исходный HTML-файл в папке "public" созданного проекта. Вы можете отредактировать тег “<title>” в нем, чтобы изменить название с "React App" на что-либо другое.
 
-Note that normally you wouldn’t edit files in the `public` folder very often. For example, [adding a stylesheet](#adding-a-stylesheet) is done without touching the HTML.
+Обратите внимание, что обычно вы не часто редактируете файлы в папке "public". Например, [добавление таблицы стилей](#adding-a-stylesheet) выполняется без изменения HTML-кода.
 
-If you need to dynamically update the page title based on the content, you can use the browser [`document.title`](https://developer.mozilla.org/en-US/docs/Web/API/Document/title) API. For more complex scenarios when you want to change the title from React components, you can use [React Helmet](https://github.com/nfl/react-helmet), a third party library.
+Если вам нужно динамически обновлять заголовок страницы в зависимости от содержимого, вы можете использовать API браузера [`document.title`](https://developer.mozilla.org/en-US/docs/Web/API/Document/title). Для более сложных сценариев, когда вы хотите изменить заголовок в React components, вы можете использовать [React Helmet](https://github.com/nfl/react-helmet), стороннюю библиотеку.
 
-If you use a custom server for your app in production and want to modify the title before it gets sent to the browser, you can follow advice in [this section](#generating-dynamic-meta-tags-on-the-server). Alternatively, you can pre-build each page as a static HTML file which then loads the JavaScript bundle, which is covered [here](#pre-rendering-into-static-html-files).
+Если вы используете пользовательский сервер для своего приложения в рабочей среде и хотите изменить заголовок до того, как оно будет отправлено в браузер, вы можете последовать совету, приведенному в [этом разделе] (#генерация динамических мета-тегов на сервере). В качестве альтернативы, вы можете предварительно создать каждую страницу в виде статического HTML-файла, который затем загружает пакет JavaScript, описанный [здесь] (#предварительный рендеринг в статические html-файлы).
 
-## Installing a Dependency
+## Установка зависимости
 
-The generated project includes React and ReactDOM as dependencies. It also includes a set of scripts used by Create React App as a development dependency. You may install other dependencies (for example, React Router) with `npm`:
+Созданный проект включает в себя React и ReactDOM в качестве зависимостей. Он также включает набор скриптов, используемых Create React App в качестве зависимостей разработки. Вы можете установить другие зависимости (например, React Router) с помощью `npm`:
 
 ```sh
 npm install --save react-router
 ```
 
-Alternatively you may use `yarn`:
+В качестве альтернативы вы можете использовать `yarn`:
 
 ```sh
 yarn add react-router
