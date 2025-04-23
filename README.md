@@ -11,10 +11,10 @@ Blog entries:
 
 <img align="center" src="https://cdn.openbloc.fr/2018/04/Capture-du-2018-04-19-01-46-13.png" />
 
-| | |
-|:-------------------------:|:-------------------------:|
-|<img src="https://pbs.twimg.com/media/Dh9azOpW0AIVLrl.jpg:large" /> | <img src="https://pbs.twimg.com/media/DfvLluyXkAIECoo.jpg:large" />|
-|<img src="https://pbs.twimg.com/media/Dh70d4WWsAAoGjC.jpg:large" /> | <img src="https://pbs.twimg.com/media/Dh70suSX0AAt9mG.jpg:large" />|
+|                                                                     |                                                                     |
+| :-----------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| <img src="https://pbs.twimg.com/media/Dh9azOpW0AIVLrl.jpg:large" /> | <img src="https://pbs.twimg.com/media/DfvLluyXkAIECoo.jpg:large" /> |
+| <img src="https://pbs.twimg.com/media/Dh70d4WWsAAoGjC.jpg:large" /> | <img src="https://pbs.twimg.com/media/Dh70suSX0AAt9mG.jpg:large" /> |
 
 ## README по умолчанию для Create React App ниже
 
@@ -127,8 +127,8 @@ Blog entries:
 
 Create React App делится на два пакета:
 
-* `create-react-app` — это глобальная утилита командной строки, которую вы используете для создания новых проектов.
-* `react-scripts` — это зависимость разработки в созданных проектах (включая этот).
+- `create-react-app` — это глобальная утилита командной строки, которую вы используете для создания новых проектов.
+- `react-scripts` — это зависимость разработки в созданных проектах (включая этот).
 
 Вам почти никогда не нужно обновлять сам `create-react-app`: он делегирует всю настройку `react-scripts`.
 
@@ -167,8 +167,8 @@ my-app/
 
 Для сборки проекта **эти файлы должны существовать с точными именами**:
 
-* `public/index.html` — шаблон страницы;
-* `src/index.js` — точка входа JavaScript.
+- `public/index.html` — шаблон страницы;
+- `src/index.js` — точка входа JavaScript.
 
 Вы можете удалить или переименовать другие файлы.
 
@@ -229,12 +229,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Этот проект поддерживает надмножество новейшего стандарта JavaScript.<br>
 В дополнение к синтаксическим возможностям [ES6](https://github.com/lukehoban/es6features) он также поддерживает:
 
-* [Оператор возведения в степень](https://github.com/rwaldron/exponentiation-operator) (ES2016).
-* [Async/await](https://github.com/tc39/ecmascript-asyncawait) (ES2017).
-* [Свойства Object Rest/Spread](https://github.com/sebmarkbage/ecmascript-rest-spread) (предложение этапа 3).
-* [Динамический импорт()](https://github.com/tc39/proposal-dynamic-import) (предложение этапа 3)
-* [Поля классов и статические свойства](https://github.com/tc39/proposal-class-public-fields) (часть предложения этапа 3).
-* Синтаксис [JSX](https://facebook.github.io/react/docs/introducing-jsx.html) и [Flow](https://flowtype.org/).
+- [Оператор возведения в степень](https://github.com/rwaldron/exponentiation-operator) (ES2016).
+- [Async/await](https://github.com/tc39/ecmascript-asyncawait) (ES2017).
+- [Свойства Object Rest/Spread](https://github.com/sebmarkbage/ecmascript-rest-spread) (предложение этапа 3).
+- [Динамический импорт()](https://github.com/tc39/proposal-dynamic-import) (предложение этапа 3)
+- [Поля классов и статические свойства](https://github.com/tc39/proposal-class-public-fields) (часть предложения этапа 3).
+- Синтаксис [JSX](https://facebook.github.io/react/docs/introducing-jsx.html) и [Flow](https://flowtype.org/).
 
 Узнайте больше о [различных этапах разработки предложений](https://babeljs.io/docs/plugins/#presets-stage-x-experimental-presets-).
 
@@ -242,9 +242,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Обратите внимание, что ** проект включает в себя только несколько ES6 [полифилл](https://en.wikipedia.org/wiki/Polyfill)**:
 
-* [`Object.assign()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) через [`object-assign`](https://github.com/sindresorhus/object-assign).
-* [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) через [`обещание`](https://github.com/then/promise).
-* [`fetch()`](https://developer.mozilla.org/en/docs/Web/API/Fetch_API) через [`whatwg-fetch`](https://github.com/github/fetch).
+- [`Object.assign()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) через [`object-assign`](https://github.com/sindresorhus/object-assign).
+- [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) через [`обещание`](https://github.com/then/promise).
+- [`fetch()`](https://developer.mozilla.org/en/docs/Web/API/Fetch_API) через [`whatwg-fetch`](https://github.com/github/fetch).
 
 Если вы используете какие-либо другие функции ES6+, для которых требуется поддержка во время выполнения (например, "Array.from()" или "Symbol"), убедитесь, что вы включили соответствующие полифиллы вручную или что браузеры, на которые вы ориентируетесь, уже поддерживают их.
 
@@ -256,8 +256,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Отображение выходных данных Lint в редакторе
 
->Примечание: эта функция доступна в версиях `react-scripts@0.2.0` и выше.<br>
->Она также работает только с npm 3 или выше.
+> Примечание: эта функция доступна в версиях `react-scripts@0.2.0` и выше.<br>
+> Она также работает только с npm 3 или выше.
 
 Некоторые редакторы, включая Sublime Text, Atom и Visual Studio Code, предоставляют плагины для ESLint.
 
@@ -291,20 +291,23 @@ Visual Studio Code и WebStorm поддерживают отладку "из к�
 
 ```json
 {
-  "version": "0.2.0",
-  "configurations": [{
-    "name": "Chrome",
-    "type": "chrome",
-    "request": "launch",
-    "url": "http://localhost:3000",
-    "webRoot": "${workspaceRoot}/src",
-    "sourceMapPathOverrides": {
-      "webpack:///src/*": "${webRoot}/*"
-    }
-  }]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Chrome",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:3000",
+			"webRoot": "${workspaceRoot}/src",
+			"sourceMapPathOverrides": {
+				"webpack:///src/*": "${webRoot}/*"
+			}
+		}
+	]
 }
 ```
->Примечание: URL-адрес может отличаться, если вы внесли изменения с помощью [переменных среды ХОСТА или порта] (#расширенная настройка).
+
+> Примечание: URL-адрес может отличаться, если вы внесли изменения с помощью [переменных среды ХОСТА или порта] (#расширенная настройка).
 
 Запустите приложение, запустив "npm start", и начните отладку в VS Code, нажав `F5` или щелкнув зеленый значок отладки. Теперь вы можете писать код, устанавливать точки останова, вносить изменения в код и отлаживать только что измененный код — и все это из своего редактора.
 
@@ -316,7 +319,7 @@ Visual Studio Code и WebStorm поддерживают отладку "из к�
 
 В меню WebStorm `Выполнить" выберите "Редактировать конфигурации...". Затем нажмите "+" и выберите "Отладка JavaScript". Вставьте "http://localhost:3000` в поле URL и сохраните конфигурацию.
 
->Примечание: URL может отличаться, если вы внесли изменения с помощью [переменных среды хоста или порта] (#расширенная настройка).
+> Примечание: URL может отличаться, если вы внесли изменения с помощью [переменных среды хоста или порта] (#расширенная настройка).
 
 Запустите свое приложение, запустив "npm start", затем нажмите "^D" в macOS или "F9" в Windows и Linux или щелкните зеленый значок отладки, чтобы начать отладку в WebStorm.
 
@@ -338,9 +341,9 @@ npm install --save husky lint-staged prettier
 yarn add husky lint-staged prettier
 ```
 
-* `* `husky` упрощает использование git-перехватчиков, как если бы они были скриптами npm.
-* "lint-staged" позволяет нам запускать скрипты для промежуточных файлов в git. Смотрите это [сообщение в блоге о lint-staged, чтобы узнать больше об этом](https://medium.com/@okonetchnikov/make-linting-great-again-f3890e1ad6b8).
-* "красивее" - это средство форматирования JavaScript, которое мы будем запускать перед фиксацией.
+- `* `husky` упрощает использование git-перехватчиков, как если бы они были скриптами npm.
+- "lint-staged" позволяет нам запускать скрипты для промежуточных файлов в git. Смотрите это [сообщение в блоге о lint-staged, чтобы узнать больше об этом](https://medium.com/@okonetchnikov/make-linting-great-again-f3890e1ad6b8).
+- "красивее" - это средство форматирования JavaScript, которое мы будем запускать перед фиксацией.
 
 Теперь мы можем убедиться, что каждый файл отформатирован правильно, добавив несколько строк в "package.json" в корневой папке проекта.
 
@@ -368,7 +371,7 @@ yarn add husky lint-staged prettier
   "scripts": {
 ```
 
-Теперь, всякий раз, когда вы делаете фиксацию, Prettier автоматически форматирует измененные файлы. Вы также можете запустить `./node_modules/.bin/prettier - одинарные кавычки -написать "src/**/*.{js,jsx,json,css}", чтобы отформатировать весь ваш проект в первый раз.
+Теперь, всякий раз, когда вы делаете фиксацию, Prettier автоматически форматирует измененные файлы. Вы также можете запустить `./node\*modules/.bin/prettier - одинарные кавычки -написать "src/\*\*/\_.{js,jsx,json,css}", чтобы отформатировать весь ваш проект в первый раз.
 
 Затем вы, возможно, захотите интегрировать Prettier в свой любимый редактор. Прочитайте раздел [Интеграция с редактором](https://prettier.io/docs/en/editors.html) на странице Prettier на GitHub.
 
@@ -396,153 +399,153 @@ npm install --save react-router
 yarn add react-router
 ```
 
-This works for any library, not just `react-router`.
+Это работает для любой библиотеки, а не только для "react-router".
 
-## Importing a Component
+## Импорт компонента
 
-This project setup supports ES6 modules thanks to Babel.<br>
-While you can still use `require()` and `module.exports`, we encourage you to use [`import` and `export`](http://exploringjs.com/es6/ch_modules.html) instead.
+Благодаря Babel в этом проекте поддерживаются модули ES6.<br>
+Хотя вы все еще можете использовать "require()" и "module.exports", мы рекомендуем вам использовать вместо этого ["import" и "export"](http://exploringjs.com/es6/ch_modules.html).
 
-For example:
+Например:
 
 ### `Button.js`
 
 ```js
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Button extends Component {
-  render() {
-    // ...
-  }
+	render() {
+		// ...
+	}
 }
 
-export default Button; // Don’t forget to use export default!
+export default Button // Don’t forget to use export default!
 ```
 
 ### `DangerButton.js`
 
-
 ```js
-import React, { Component } from 'react';
-import Button from './Button'; // Import a component from another file
+import React, { Component } from 'react'
+import Button from './Button' // Import a component from another file
 
 class DangerButton extends Component {
-  render() {
-    return <Button color="red" />;
-  }
+	render() {
+		return <Button color='red' />
+	}
 }
 
-export default DangerButton;
+export default DangerButton
 ```
 
-Be aware of the [difference between default and named exports](http://stackoverflow.com/questions/36795819/react-native-es-6-when-should-i-use-curly-braces-for-import/36796281#36796281). It is a common source of mistakes.
+Помните о [различии между default и named, exports](http://stackoverflow.com/questions/36795819/react-native-es-6-when-should-i-use-curly-braces-for-import/36796281#36796281). Это часто приводит к ошибкам.
 
-We suggest that you stick to using default imports and exports when a module only exports a single thing (for example, a component). That’s what you get when you use `export default Button` and `import Button from './Button'`.
+Мы рекомендуем вам использовать импорт и экспорт по умолчанию, когда модуль экспортирует только что-то одно (например, компонент). Это то, что вы получаете, когда используете "экспортировать кнопку по умолчанию" и "импортировать кнопку из "./Button".
 
-Named exports are useful for utility modules that export several functions. A module may have at most one default export and as many named exports as you like.
+Именованный экспорт полезен для служебных модулей, которые экспортируют несколько функций. В модуле может быть не более одного экспорта по умолчанию и столько именованных экспортов, сколько вам нужно.
 
-Learn more about ES6 modules:
+Подробнее о модулях ES6:
 
-* [When to use the curly braces?](http://stackoverflow.com/questions/36795819/react-native-es-6-when-should-i-use-curly-braces-for-import/36796281#36796281)
-* [Exploring ES6: Modules](http://exploringjs.com/es6/ch_modules.html)
-* [Understanding ES6: Modules](https://leanpub.com/understandinges6/read#leanpub-auto-encapsulating-code-with-modules)
+- [Когда использовать фигурные скобки?](http://stackoverflow.com/questions/36795819/react-native-es-6-when-should-i-use-curly-braces-for-import/36796281#36796281)
+- [Изучение ES6: модулей](http://exploringjs.com/es6/ch_modules.html)
+- [Понимание ES6: модулей](https://leanpub.com/understandinges6/read#leanpub-auto-encapsulating-code-with-modules)
 
-## Code Splitting
+## Разделение кода
 
-Instead of downloading the entire app before users can use it, code splitting allows you to split your code into small chunks which you can then load on demand.
+Вместо загрузки всего приложения до того, как пользователи смогут его использовать, разделение кода позволяет разделить ваш код на небольшие фрагменты, которые затем можно загружать по запросу.
 
-This project setup supports code splitting via [dynamic `import()`](http://2ality.com/2017/01/import-operator.html#loading-code-on-demand). Its [proposal](https://github.com/tc39/proposal-dynamic-import) is in stage 3. The `import()` function-like form takes the module name as an argument and returns a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) which always resolves to the namespace object of the module.
+Настройка этого проекта поддерживает разделение кода с помощью [динамического `импорта()`](http://2ality.com/2017/01/import-operator.html#loading-code-on-demand). Его [предложение](https://github.com/tc39/proposal-dynamic-import) находится на этапе 3. Функциональная форма `import()` принимает имя модуля в качестве аргумента и возвращает значение [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), которое всегда преобразуется в объект пространства имен модуля.
 
-Here is an example:
+Вот пример:
 
 ### `moduleA.js`
 
 ```js
-const moduleA = 'Hello';
+const moduleA = 'Hello'
 
-export { moduleA };
+export { moduleA }
 ```
+
 ### `App.js`
 
 ```js
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class App extends Component {
-  handleClick = () => {
-    import('./moduleA')
-      .then(({ moduleA }) => {
-        // Use moduleA
-      })
-      .catch(err => {
-        // Handle failure
-      });
-  };
+	handleClick = () => {
+		import('./moduleA')
+			.then(({ moduleA }) => {
+				// Use moduleA
+			})
+			.catch(err => {
+				// Handle failure
+			})
+	}
 
-  render() {
-    return (
-      <div>
-        <button onClick={this.handleClick}>Load</button>
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div>
+				<button onClick={this.handleClick}>Load</button>
+			</div>
+		)
+	}
 }
 
-export default App;
+export default App
 ```
 
-This will make `moduleA.js` and all its unique dependencies as a separate chunk that only loads after the user clicks the 'Load' button.
+Это сделает `moduleA.js` и все его уникальные зависимости отдельным блоком, который загружается только после того, как пользователь нажмет кнопку "Загрузить".
 
-You can also use it with `async` / `await` syntax if you prefer it.
+Вы также можете использовать его с синтаксисом `async` / `await`, если вам так больше нравится.
 
-### With React Router
+### С помощью React Router
 
-If you are using React Router check out [this tutorial](http://serverless-stack.com/chapters/code-splitting-in-create-react-app.html) on how to use code splitting with it. You can find the companion GitHub repository [here](https://github.com/AnomalyInnovations/serverless-stack-demo-client/tree/code-splitting-in-create-react-app).
+Если вы используете React Router, ознакомьтесь с [этим руководством] (http://serverless-stack.com/chapters/code-splitting-in-create-react-app.html) о том, как использовать разделение кода с его помощью. Вы можете найти соответствующий репозиторий на GitHub [here](https://github.com/AnomalyInnovations/serverless-stack-demo-client/tree/code-splitting-in-create-react-app).
 
-Also check out the [Code Splitting](https://reactjs.org/docs/code-splitting.html) section in React documentation.
+Также ознакомьтесь с разделом [Разделение кода](https://reactjs.org/docs/code-splitting.html) в документации React.
 
-## Adding a Stylesheet
+## Добавление таблицы стилей
 
-This project setup uses [Webpack](https://webpack.js.org/) for handling all assets. Webpack offers a custom way of “extending” the concept of `import` beyond JavaScript. To express that a JavaScript file depends on a CSS file, you need to **import the CSS from the JavaScript file**:
+В этом проекте используется [Webpack](https://webpack.js.org/) для обработки всех ресурсов. Webpack предлагает пользовательский способ “расширения” концепции "импорта" за пределы JavaScript. Чтобы показать, что файл JavaScript зависит от файла CSS, вам необходимо ** импортировать CSS из файла JavaScript**:
 
 ### `Button.css`
 
 ```css
 .Button {
-  padding: 20px;
+	padding: 20px;
 }
 ```
 
 ### `Button.js`
 
 ```js
-import React, { Component } from 'react';
-import './Button.css'; // Tell Webpack that Button.js uses these styles
+import React, { Component } from 'react'
+import './Button.css' // Tell Webpack that Button.js uses these styles
 
 class Button extends Component {
-  render() {
-    // You can use them as regular CSS styles
-    return <div className="Button" />;
-  }
+	render() {
+		// You can use them as regular CSS styles
+		return <div className='Button' />
+	}
 }
 ```
 
-**This is not required for React** but many people find this feature convenient. You can read about the benefits of this approach [here](https://medium.com/seek-ui-engineering/block-element-modifying-your-javascript-components-d7f99fcab52b). However you should be aware that this makes your code less portable to other build tools and environments than Webpack.
+**Это не требуется для React**, но многие пользователи находят эту функцию удобной. Вы можете прочитать о преимуществах этого подхода [here](https://medium.com/seek-ui-engineering/block-element-modifying-your-javascript-components-d7f99fcab52b). Однако вы должны знать, что это делает ваш код менее переносимым для других инструментов и сред сборки, чем Webpack.
 
-In development, expressing dependencies this way allows your styles to be reloaded on the fly as you edit them. In production, all CSS files will be concatenated into a single minified `.css` file in the build output.
+В процессе разработки такое выражение зависимостей позволяет перезагружать ваши стили "на лету" по мере их редактирования. В процессе производства все файлы CSS будут объединены в один уменьшенный файл ".css" в выходных данных сборки.
 
-If you are concerned about using Webpack-specific semantics, you can put all your CSS right into `src/index.css`. It would still be imported from `src/index.js`, but you could always remove that import if you later migrate to a different build tool.
+Если вы заинтересованы в использовании семантики, специфичной для Webpack, вы можете поместить весь свой CSS прямо в "src/index.css". Он все равно будет импортирован из `src/index.js", но вы всегда можете удалить этот импорт, если позже перейдете на другой инструмент сборки.
 
-## Post-Processing CSS
+## Постобработка CSS
 
-This project setup minifies your CSS and adds vendor prefixes to it automatically through [Autoprefixer](https://github.com/postcss/autoprefixer) so you don’t need to worry about it.
+Эта настройка проекта минимизирует ваш CSS и автоматически добавляет к нему префиксы поставщиков с помощью [Autoprefixer](https://github.com/postcss/autoprefixer), так что вам не нужно беспокоиться об этом.
 
-For example, this:
+Например, это:
 
 ```css
 .App {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 ```
 
@@ -550,28 +553,28 @@ becomes this:
 
 ```css
 .App {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 ```
 
-If you need to disable autoprefixing for some reason, [follow this section](https://github.com/postcss/autoprefixer#disabling).
+Если вам по какой-либо причине необходимо отключить автоподстройку, [следуйте этому разделу](https://github.com/postcss/autoprefixer#disabling).
 
-## Adding a CSS Preprocessor (Sass, Less etc.)
+## Добавление CSS-препроцессора (Sass, Less и т.д.)
 
-Generally, we recommend that you don’t reuse the same CSS classes across different components. For example, instead of using a `.Button` CSS class in `<AcceptButton>` and `<RejectButton>` components, we recommend creating a `<Button>` component with its own `.Button` styles, that both `<AcceptButton>` and `<RejectButton>` can render (but [not inherit](https://facebook.github.io/react/docs/composition-vs-inheritance.html)).
+Как правило, мы рекомендуем вам не использовать одни и те же классы CSS повторно в разных компонентах. Например, вместо использования CSS-класса ".Button" в компонентах "<AcceptButton>" и "<RejectButton>" мы рекомендуем создать компонент "<Button>" со своими собственными стилями ".Button", которые могут использоваться как "<AcceptButton>", так и "<RejectButton>". отображать (но [не наследовать](https://facebook.github.io/react/docs/composition-vs-inheritance.html)).
 
-Following this rule often makes CSS preprocessors less useful, as features like mixins and nesting are replaced by component composition. You can, however, integrate a CSS preprocessor if you find it valuable. In this walkthrough, we will be using Sass, but you can also use Less, or another alternative.
+Следование этому правилу часто делает CSS-препроцессоры менее полезными, поскольку такие функции, как микширование и вложенность, заменяются компоновкой. Однако вы можете интегрировать CSS-препроцессор, если считаете его полезным. В этом пошаговом руководстве мы будем использовать Sass, но вы также можете использовать Less или другую альтернативу.
 
-First, let’s install the command-line interface for Sass:
+Сначала давайте установим интерфейс командной строки для Sass:
 
 ```sh
 npm install --save node-sass-chokidar
@@ -594,13 +597,13 @@ Then in `package.json`, add the following lines to `scripts`:
      "test": "react-scripts test --env=jsdom",
 ```
 
->Note: To use a different preprocessor, replace `build-css` and `watch-css` commands according to your preprocessor’s documentation.
+> Примечание: Чтобы использовать другой препроцессор, замените команды "build-css" и "watch-css" в соответствии с документацией вашего препроцессора.
 
-Now you can rename `src/App.css` to `src/App.scss` and run `npm run watch-css`. The watcher will find every Sass file in `src` subdirectories, and create a corresponding CSS file next to it, in our case overwriting `src/App.css`. Since `src/App.js` still imports `src/App.css`, the styles become a part of your application. You can now edit `src/App.scss`, and `src/App.css` will be regenerated.
+Теперь вы можете переименовать "src/App.css" в "src/App.scss`и запустить`npm run watch-css`. Наблюдатель найдет каждый файл Sass в подкаталогах "src" и создаст соответствующий файл CSS рядом с ним, в нашем случае перезаписав "src/App.css`. Поскольку "src/App.js` по-прежнему импортирует "src/App.css", стили становятся частью вашего приложения. Теперь вы можете редактировать "src/App.scss", и "src/App.css" будет восстановлен.
 
-To share variables between Sass files, you can use Sass imports. For example, `src/App.scss` and other component style files could include `@import "./shared.scss";` with variable definitions.
+Чтобы обмениваться переменными между файлами Sass, вы можете использовать Sass imports. Например, "src/App.scss" и другие файлы стилей компонентов могут содержать "@import "./shared.scss";" с определениями переменных.
 
-To enable importing files without using relative paths, you can add the  `--include-path` option to the command in `package.json`.
+Чтобы включить импорт файлов без использования относительных путей, вы можете добавить параметр "--include-path" к команде в `package.json`.
 
 ```
 "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
@@ -614,21 +617,21 @@ This will allow you to do imports like
 @import 'nprogress/nprogress'; // importing a css file from the nprogress node module
 ```
 
-At this point you might want to remove all CSS files from the source control, and add `src/**/*.css` to your `.gitignore` file. It is generally a good practice to keep the build products outside of the source control.
+На этом этапе вы, возможно, захотите удалить все файлы CSS из системы управления версиями и добавить "src/\*_/_.css" в свой файл ".gitignore". Как правило, рекомендуется сохранять продукты сборки вне системы управления версиями.
 
-As a final step, you may find it convenient to run `watch-css` automatically with `npm start`, and run `build-css` as a part of `npm run build`. You can use the `&&` operator to execute two scripts sequentially. However, there is no cross-platform way to run two scripts in parallel, so we will install a package for this:
+В качестве заключительного шага, возможно, вам будет удобно запустить "watch-css" автоматически с помощью "npm start" и запустить "build-css" как часть "npm run build". Вы можете использовать оператор `&&` для последовательного выполнения двух сценариев. Однако кроссплатформенного способа параллельного запуска двух скриптов не существует, поэтому мы установим пакет для этого:
 
 ```sh
 npm install --save npm-run-all
 ```
 
-Alternatively you may use `yarn`:
+В качестве альтернативы вы можете использовать `yarn`:
 
 ```sh
 yarn add npm-run-all
 ```
 
-Then we can change `start` and `build` scripts to include the CSS preprocessor commands:
+Затем мы можем изменить скрипты "start" и "build", включив в них команды препроцессора CSS:
 
 ```diff
    "scripts": {
@@ -645,97 +648,97 @@ Then we can change `start` and `build` scripts to include the CSS preprocessor c
    }
 ```
 
-Now running `npm start` and `npm run build` also builds Sass files.
+Теперь при запуске "npm start`и`npm run build" также создаются файлы Sass.
 
-**Why `node-sass-chokidar`?**
+**Почему "node-sass-chokidar"?**
 
-`node-sass` has been reported as having the following issues:
+Сообщалось, что в "node-sass" возникают следующие проблемы:
 
-- `node-sass --watch` has been reported to have *performance issues* in certain conditions when used in a virtual machine or with docker.
+- сообщалось, что при использовании node-sass -watch в определенных условиях возникают проблемы с производительностью при использовании на виртуальной машине или с помощью docker.
 
-- Infinite styles compiling [#1939](https://github.com/facebookincubator/create-react-app/issues/1939)
+- Компиляция бесконечных стилей [#1939](https://github.com/facebookincubator/create-react-app/issues/1939)
 
-- `node-sass` has been reported as having issues with detecting new files in a directory [#1891](https://github.com/sass/node-sass/issues/1891)
+- сообщалось, что у node-sass возникают проблемы с обнаружением новых файлов в каталоге [#1891](https://github.com/sass/node-sass/issues/1891)
 
- `node-sass-chokidar` is used here as it addresses these issues.
+здесь используется node-sass-chokidar для устранения этих проблем.
 
-## Adding Images, Fonts, and Files
+## Добавление изображений, шрифтов и файлов
 
-With Webpack, using static assets like images and fonts works similarly to CSS.
+В Webpack использование статических ресурсов, таких как изображения и шрифты, работает аналогично CSS.
 
-You can **`import` a file right in a JavaScript module**. This tells Webpack to include that file in the bundle. Unlike CSS imports, importing a file gives you a string value. This value is the final path you can reference in your code, e.g. as the `src` attribute of an image or the `href` of a link to a PDF.
+Вы можете ** `импортировать` файл прямо в модуль JavaScript**. Это позволяет Webpack включить этот файл в пакет. В отличие от импорта CSS, при импорте файла вы получаете строковое значение. Это значение является конечным путем, на который вы можете ссылаться в своем коде, например, в качестве атрибута `src` для изображения или `href` для ссылки на PDF-файл.
 
-To reduce the number of requests to the server, importing images that are less than 10,000 bytes returns a [data URI](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) instead of a path. This applies to the following file extensions: bmp, gif, jpg, jpeg, and png. SVG files are excluded due to [#1153](https://github.com/facebookincubator/create-react-app/issues/1153).
+Чтобы сократить количество запросов к серверу, при импорте изображений размером менее 10 000 байт вместо пути возвращается [URI данных](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs). Это относится к файлам со следующими расширениями: bmp, gif, jpg, jpeg и png. Файлы SVG исключены из-за [#1153](https://github.com/facebookincubator/create-react-app/issues/1153).
 
-Here is an example:
+Вот пример:
 
 ```js
-import React from 'react';
-import logo from './logo.png'; // Tell Webpack this JS file uses this image
+import React from 'react'
+import logo from './logo.png' // Tell Webpack this JS file uses this image
 
-console.log(logo); // /logo.84287d09.png
+console.log(logo) // /logo.84287d09.png
 
 function Header() {
-  // Import result is the URL of your image
-  return <img src={logo} alt="Logo" />;
+	// Import result is the URL of your image
+	return <img src={logo} alt='Logo' />
 }
 
-export default Header;
+export default Header
 ```
 
-This ensures that when the project is built, Webpack will correctly move the images into the build folder, and provide us with correct paths.
+Это гарантирует, что при сборке проекта Webpack правильно переместит изображения в папку сборки и предоставит нам правильные пути.
 
-This works in CSS too:
+Это также работает в CSS:
 
 ```css
 .Logo {
-  background-image: url(./logo.png);
+	background-image: url(./logo.png);
 }
 ```
 
-Webpack finds all relative module references in CSS (they start with `./`) and replaces them with the final paths from the compiled bundle. If you make a typo or accidentally delete an important file, you will see a compilation error, just like when you import a non-existent JavaScript module. The final filenames in the compiled bundle are generated by Webpack from content hashes. If the file content changes in the future, Webpack will give it a different name in production so you don’t need to worry about long-term caching of assets.
+Webpack находит все относительные ссылки на модули в CSS (они начинаются с `./`) и заменяет их конечными путями из скомпилированного пакета. Если вы допустите опечатку или случайно удалите важный файл, вы увидите ошибку компиляции, как при импорте несуществующего модуля JavaScript. Окончательные имена файлов в скомпилированном пакете генерируются Webpack из хэшей содержимого. Если содержимое файла изменится в будущем, Webpack присвоит ему другое имя в рабочей среде, так что вам не нужно беспокоиться о долгосрочном кэшировании ресурсов.
 
-Please be advised that this is also a custom feature of Webpack.
+Пожалуйста, имейте в виду, что это также пользовательская функция Webpack.
 
-**It is not required for React** but many people enjoy it (and React Native uses a similar mechanism for images).<br>
-An alternative way of handling static assets is described in the next section.
+**Она не требуется для React**, но многим людям она нравится (и React Native использует аналогичный механизм для изображений).
+Альтернативный способ обработки статических ресурсов описан в следующем разделе.
 
-## Using the `public` Folder
+## Использование `общедоступной` папки
 
->Note: this feature is available with `react-scripts@0.5.0` and higher.
+> Note: this feature is available with `react-scripts@0.5.0` and higher.
 
-### Changing the HTML
+### Изменение HTML-кода
 
-The `public` folder contains the HTML file so you can tweak it, for example, to [set the page title](#changing-the-page-title).
-The `<script>` tag with the compiled code will be added to it automatically during the build process.
+В папке "public" находится HTML-файл, который можно изменить, например, на [задать заголовок страницы] (#изменение заголовка страницы).
+Тег "<script>" со скомпилированным кодом будет добавлен к нему автоматически в процессе сборки.
 
-### Adding Assets Outside of the Module System
+### Добавление ресурсов за пределами системы модулей
 
-You can also add other assets to the `public` folder.
+Вы также можете добавить другие ресурсы в папку "public".
 
-Note that we normally encourage you to `import` assets in JavaScript files instead.
-For example, see the sections on [adding a stylesheet](#adding-a-stylesheet) and [adding images and fonts](#adding-images-fonts-and-files).
-This mechanism provides a number of benefits:
+Обратите внимание, что обычно мы рекомендуем вам "импортировать" ресурсы в файлы JavaScript.
+Например, смотрите разделы [добавление таблицы стилей] (#добавление таблицы стилей) и [добавление изображений и шрифтов] (#добавление изображений, шрифтов и файлов).
+Этот механизм предоставляет ряд преимуществ:
 
-* Scripts and stylesheets get minified and bundled together to avoid extra network requests.
-* Missing files cause compilation errors instead of 404 errors for your users.
-* Result filenames include content hashes so you don’t need to worry about browsers caching their old versions.
+- Скрипты и таблицы стилей сокращаются и объединяются вместе, чтобы избежать дополнительных сетевых запросов.
+- Отсутствие файлов приводит к ошибкам компиляции, а не к ошибкам 404 для ваших пользователей.
+- Имена результирующих файлов содержат хэши содержимого, поэтому вам не нужно беспокоиться о том, что браузеры будут кэшировать свои старые версии.
 
-However there is an **escape hatch** that you can use to add an asset outside of the module system.
+Однако есть ** запасной выход**, который вы можете использовать для добавления ресурса вне системы модулей.
 
-If you put a file into the `public` folder, it will **not** be processed by Webpack. Instead it will be copied into the build folder untouched.   To reference assets in the `public` folder, you need to use a special variable called `PUBLIC_URL`.
+Если вы поместите файл в папку "public", он не будет обработан Webpack. Вместо этого он будет скопирован в папку сборки нетронутым. Чтобы ссылаться на ресурсы в папке "public", вам нужно использовать специальную переменную под названием `PUBLIC_URL`.
 
-Inside `index.html`, you can use it like this:
+Внутри `index.html" вы можете использовать ее следующим образом:
 
 ```html
-<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
 ```
 
-Only files inside the `public` folder will be accessible by `%PUBLIC_URL%` prefix. If you need to use a file from `src` or `node_modules`, you’ll have to copy it there to explicitly specify your intention to make this file a part of the build.
+Только файлы внутри папки `public` будут доступны с префиксом `%PUBLIC_URL%`. Если вам нужно использовать файл из `src` или `node_modules`, вам нужно будет скопировать его туда, чтобы явно указать свое намерение сделать этот файл частью сборки.
 
-When you run `npm run build`, Create React App will substitute `%PUBLIC_URL%` with a correct absolute path so your project works even if you use client-side routing or host it at a non-root URL.
+Когда вы запускаете "npm run build", приложение Create React заменит "%PUBLIC_URL%" правильным абсолютным путем, чтобы ваш проект работал, даже если вы используете маршрутизацию на стороне клиента или размещаете его по некорневому URL-адресу.
 
-In JavaScript code, you can use `process.env.PUBLIC_URL` for similar purposes:
+В коде JavaScript вы можете использовать `process.env.PUBLIC_URL` для аналогичных целей:
 
 ```js
 render() {
@@ -746,106 +749,106 @@ render() {
 }
 ```
 
-Keep in mind the downsides of this approach:
+Имейте в виду недостатки этого подхода:
 
-* None of the files in `public` folder get post-processed or minified.
-* Missing files will not be called at compilation time, and will cause 404 errors for your users.
-* Result filenames won’t include content hashes so you’ll need to add query arguments or rename them every time they change.
+- Ни один из файлов в папке "public" не подвергается последующей обработке или уменьшению.
+- Отсутствующие файлы не будут вызваны во время компиляции и приведут к ошибке 404 для ваших пользователей.
+- Имена файлов результатов не будут содержать хэшей содержимого, поэтому вам нужно будет добавлять аргументы запроса или переименовывать их при каждом изменении.
 
-### When to Use the `public` Folder
+### Когда использовать "общедоступную` папку
 
-Normally we recommend importing [stylesheets](#adding-a-stylesheet), [images, and fonts](#adding-images-fonts-and-files) from JavaScript.
-The `public` folder is useful as a workaround for a number of less common cases:
+Обычно мы рекомендуем импортировать [таблицы стилей] (#добавление таблицы стилей), [изображения и шрифты] (#добавление изображений, шрифтов и файлов) из JavaScript.
+`Общедоступная` папка полезна в качестве обходного пути для ряда менее распространенных случаев:
 
-* You need a file with a specific name in the build output, such as [`manifest.webmanifest`](https://developer.mozilla.org/en-US/docs/Web/Manifest).
-* You have thousands of images and need to dynamically reference their paths.
-* You want to include a small script like [`pace.js`](http://github.hubspot.com/pace/docs/welcome/) outside of the bundled code.
-* Some library may be incompatible with Webpack and you have no other option but to include it as a `<script>` tag.
+- В выходных данных сборки вам нужен файл с определенным именем, например [`manifest.webmanifest`](https://developer.mozilla.org/en-US/docs/Web/Manifest).
+- У вас есть тысячи изображений, и вам нужно динамически ссылаться на пути к ним.
+- Вы хотите включить небольшой скрипт, например [`pace.js`](http://github.hubspot.com/pace/docs/welcome/), за пределы встроенного кода.
+- Некоторые библиотеки могут быть несовместимы с Webpack, и у вас нет другого выбора, кроме как включить их в качестве тега "<script>".
 
-Note that if you add a `<script>` that declares global variables, you also need to read the next section on using them.
+Обратите внимание, что если вы добавляете "<скрипт>", который объявляет глобальные переменные, вам также необходимо прочитать следующий раздел, посвященный их использованию.
 
-## Using Global Variables
+## Использование глобальных переменных
 
-When you include a script in the HTML file that defines global variables and try to use one of these variables in the code, the linter will complain because it cannot see the definition of the variable.
+Когда вы добавляете в HTML-файл скрипт, определяющий глобальные переменные, и пытаетесь использовать одну из этих переменных в коде, программа компоновки будет жаловаться, потому что не сможет увидеть определение переменной.
 
-You can avoid this by reading the global variable explicitly from the `window` object, for example:
+Вы можете избежать этого, прочитав глобальную переменную явно из объекта window, например:
 
 ```js
-const $ = window.$;
+const $ = window.$
 ```
 
-This makes it obvious you are using a global variable intentionally rather than because of a typo.
+Это делает очевидным, что вы используете глобальную переменную намеренно, а не из-за опечатки.
 
-Alternatively, you can force the linter to ignore any line by adding `// eslint-disable-line` after it.
+В качестве альтернативы вы можете заставить линтер игнорировать любую строку, добавив после нее "// eslint-disable-line".
 
-## Adding Bootstrap
+## Добавляем Bootstrap
 
-You don’t have to use [React Bootstrap](https://react-bootstrap.github.io) together with React but it is a popular library for integrating Bootstrap with React apps. If you need it, you can integrate it with Create React App by following these steps:
+Вам не обязательно использовать [React Bootstrap](https://react-bootstrap.github.io) вместе с React, но это популярная библиотека для интеграции Bootstrap с приложениями React. Если вам это нужно, вы можете интегрировать ее с Create React App, выполнив следующие действия:
 
-Install React Bootstrap and Bootstrap from npm. React Bootstrap does not include Bootstrap CSS so this needs to be installed as well:
+Установите React Bootstrap и Bootstrap для начальной загрузки из npm. React Bootstrap не включает Bootstrap CSS, поэтому его также необходимо установить:
 
 ```sh
 npm install --save react-bootstrap bootstrap@3
 ```
 
-Alternatively you may use `yarn`:
+В качестве альтернативы вы можете использовать `yarn`:
 
 ```sh
 yarn add react-bootstrap bootstrap@3
 ```
 
-Import Bootstrap CSS and optionally Bootstrap theme CSS in the beginning of your ```src/index.js``` file:
+Импорт начальной загрузки CSS и при необходимости Bootstrap тему CSS в начало вашего файла `src/index.js` :
 
 ```js
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap-theme.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap-theme.css'
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 ```
 
-Import required React Bootstrap components within ```src/App.js``` file or your custom component files:
+Импортируйте необходимые компоненты React Bootstrap из файла `src/App.js` или ваших пользовательских файлов компонентов:
 
 ```js
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
+import { Navbar, Jumbotron, Button } from 'react-bootstrap'
 ```
 
-Now you are ready to use the imported React Bootstrap components within your component hierarchy defined in the render method. Here is an example [`App.js`](https://gist.githubusercontent.com/gaearon/85d8c067f6af1e56277c82d19fd4da7b/raw/6158dd991b67284e9fc8d70b9d973efe87659d72/App.js) redone using React Bootstrap.
+Теперь вы готовы использовать импортированные компоненты React Bootstrap в вашей иерархии компонентов, определенной в методе render. Вот пример [`App.js`](https://gist.githubusercontent.com/gaearon/85d8c067f6af1e56277c82d19fd4da7b/raw/6158dd991b67284e9fc8d70b9d973efe87659d72/App.js) переделано с использованием React Bootstrap.
 
-### Using a Custom Theme
+### Использование пользовательской темы
 
-Sometimes you might need to tweak the visual styles of Bootstrap (or equivalent package).<br>
-We suggest the following approach:
+Иногда вам может потребоваться изменить визуальные стили Bootstrap (или аналогичного пакета).
+Мы предлагаем следующий подход:
 
-* Create a new package that depends on the package you wish to customize, e.g. Bootstrap.
-* Add the necessary build steps to tweak the theme, and publish your package on npm.
-* Install your own theme npm package as a dependency of your app.
+- Создайте новый пакет, который зависит от того, какой пакет вы хотите настроить, например Bootstrap.
+- Добавьте необходимые шаги сборки, чтобы настроить тему, и опубликуйте свой пакет в npm.
+- Установите свой собственный пакет npm для темы в качестве зависимости от вашего приложения.
 
-Here is an example of adding a [customized Bootstrap](https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165) that follows these steps.
+Вот пример добавления [настраиваемого загрузчика](https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165), который выполняется следующим образом.
 
-## Adding Flow
+## Добавление потока
 
-Flow is a static type checker that helps you write code with fewer bugs. Check out this [introduction to using static types in JavaScript](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-1-8382da1e0adb) if you are new to this concept.
+Flow - это средство проверки статических типов, которое помогает вам писать код с меньшим количеством ошибок. Ознакомьтесь с этим [введение в использование статических типов в JavaScript](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-1-8382da1e0adb), если вы новичок в этой концепции.
 
-Recent versions of [Flow](http://flowtype.org/) work with Create React App projects out of the box.
+Последние версии [Flow](http://flowtype.org/) работают с проектами приложений Create React "из коробки".
 
-To add Flow to a Create React App project, follow these steps:
+Чтобы добавить Flow в проект Create React App, выполните следующие действия:
 
 1. Run `npm install --save flow-bin` (or `yarn add flow-bin`).
 2. Add `"flow": "flow"` to the `scripts` section of your `package.json`.
 3. Run `npm run flow init` (or `yarn flow init`) to create a [`.flowconfig` file](https://flowtype.org/docs/advanced-configuration.html) in the root directory.
 4. Add `// @flow` to any files you want to type check (for example, to `src/App.js`).
 
-Now you can run `npm run flow` (or `yarn flow`) to check the files for type errors.
-You can optionally use an IDE like [Nuclide](https://nuclide.io/docs/languages/flow/) for a better integrated experience.
-In the future we plan to integrate it into Create React App even more closely.
+Теперь вы можете запустить "npm run flow" (или "yarn flow"), чтобы проверить файлы на ошибки ввода.
+При желании вы можете использовать IDE, например [Nuclide](https://nuclide.io/docs/languages/flow/), для лучшей интеграции.
+В будущем мы планируем еще более тесно интегрировать его в приложение Create React.
 
-To learn more about Flow, check out [its documentation](https://flowtype.org/).
+Чтобы узнать больше о Flow, ознакомьтесь с [документацией к нему](https://flowtype.org/).
 
-## Adding a Router
+## Добавление маршрутизатора
 
-Create React App doesn't prescribe a specific routing solution, but [React Router](https://reacttraining.com/react-router/) is the most popular one.
+Приложение Create React не предписывает конкретного решения для маршрутизации, но [React Router](https://react training.com/react-router/) является наиболее популярным.
 
-To add it, run:
+Чтобы добавить его, запустите:
 
 ```sh
 npm install --save react-router-dom
@@ -857,32 +860,32 @@ Alternatively you may use `yarn`:
 yarn add react-router-dom
 ```
 
-To try it, delete all the code in `src/App.js` and replace it with any of the examples on its website. The [Basic Example](https://reacttraining.com/react-router/web/example/basic) is a good place to get started.
+Чтобы попробовать, удалите весь код из "src/App.js" и замените его любым из примеров на веб-сайте. [Базовый пример](https://reacttraining.com/react-router/web/example/basic) - это хорошее место для начала.
 
-Note that [you may need to configure your production server to support client-side routing](#serving-apps-with-client-side-routing) before deploying your app.
+Обратите внимание, что [возможно, вам потребуется настроить рабочий сервер для поддержки маршрутизации на стороне клиента] (#serving-apps-with-client-side-routing) перед развертыванием вашего приложения.
 
-## Adding Custom Environment Variables
+## Добавление пользовательских переменных среды
 
->Note: this feature is available with `react-scripts@0.2.3` and higher.
+> Примечание: эта функция доступна с `react-scripts@0.2.3` и выше.
 
-Your project can consume variables declared in your environment as if they were declared locally in your JS files. By
-default you will have `NODE_ENV` defined for you, and any other environment variables starting with
+Ваш проект может использовать переменные, объявленные в вашей среде, как если бы они были объявлены локально в ваших JS-файлах. По
+умолчанию для вас будет определен `NODE_ENV` и любые другие переменные среды, начинающиеся с
 `REACT_APP_`.
 
-**The environment variables are embedded during the build time**. Since Create React App produces a static HTML/CSS/JS bundle, it can’t possibly read them at runtime. To read them at runtime, you would need to load HTML into memory on the server and replace placeholders in runtime, just like [described here](#injecting-data-from-the-server-into-the-page). Alternatively you can rebuild the app on the server anytime you change them.
+**Переменные среды внедряются во время сборки**. Поскольку приложение Create React создает статический пакет HTML/CSS/JS, оно не может прочитать их во время выполнения. Чтобы прочитать их во время выполнения, вам нужно будет загрузить HTML-код в память на сервере и заменить заполнители во время выполнения, точно так же, как [описано здесь] (#ввод данных с сервера на страницу). В качестве альтернативы вы можете перестроить приложение на сервере в любое время, когда измените их.
 
->Note: You must create custom environment variables beginning with `REACT_APP_`. Any other variables except `NODE_ENV` will be ignored to avoid accidentally [exposing a private key on the machine that could have the same name](https://github.com/facebookincubator/create-react-app/issues/865#issuecomment-252199527). Changing any environment variables will require you to restart the development server if it is running.
+> Примечание: Вы должны создать пользовательские переменные среды, начинающиеся с `REACT_APP_`. Любые другие переменные, кроме `NODE_ENV`, будут игнорироваться во избежание случайного [раскрытия закрытого ключа на компьютере, который может иметь такое же имя](https://github.com/facebookincubator/create-react-app/issues/865#issuecomment-252199527). Для изменения любых переменных среды потребуется перезапустить сервер разработки, если он запущен.
 
-These environment variables will be defined for you on `process.env`. For example, having an environment
-variable named `REACT_APP_SECRET_CODE` will be exposed in your JS as `process.env.REACT_APP_SECRET_CODE`.
+Эти переменные среды будут определены для вас в `process.env`. Например, при наличии среды
+переменная с именем "REACT_APP_SECRET_CODE" будет отображаться в вашем JS как "process.env.REACT_APP_SECRET_CODE".
 
-There is also a special built-in environment variable called `NODE_ENV`. You can read it from `process.env.NODE_ENV`. When you run `npm start`, it is always equal to `'development'`, when you run `npm test` it is always equal to `'test'`, and when you run `npm run build` to make a production bundle, it is always equal to `'production'`. **You cannot override `NODE_ENV` manually.** This prevents developers from accidentally deploying a slow development build to production.
+Существует также специальная встроенная переменная среды с именем "NODE_ENV`. Вы можете прочитать это из файла `process.env.NODE_ENV`. Когда вы запускаете `npm start", оно всегда равно `development", когда вы запускаете `npm test", оно всегда равно "test", а когда вы запускаете "npm run build" для создания производственного пакета, оно всегда равно "production". ** Вы не можете переопределить `NODE_ENV` вручную.** Это предотвращает случайное развертывание разработчиками медленной сборки для разработки в рабочей среде.
 
-These environment variables can be useful for displaying information conditionally based on where the project is
-deployed or consuming sensitive data that lives outside of version control.
+Эти переменные среды могут быть полезны для условного отображения информации в зависимости от того, где
+развернут проект, или для использования конфиденциальных данных, которые находятся за пределами системы управления версиями.
 
-First, you need to have environment variables defined. For example, let’s say you wanted to consume a secret defined
-in the environment inside a `<form>`:
+Во-первых, вам необходимо определить переменные среды. Например, предположим, вы хотите использовать секрет, определенный
+в среде внутри `<формы>`:
 
 ```jsx
 render() {
@@ -897,52 +900,52 @@ render() {
 }
 ```
 
-During the build, `process.env.REACT_APP_SECRET_CODE` will be replaced with the current value of the `REACT_APP_SECRET_CODE` environment variable. Remember that the `NODE_ENV` variable will be set for you automatically.
+Во время сборки `process.env.REACT_APP_SECRET_CODE` будет заменен текущим значением переменной окружения `REACT_APP_SECRET_CODE`. Помните, что переменная `NODE_ENV` будет установлена для вас автоматически.
 
-When you load the app in the browser and inspect the `<input>`, you will see its value set to `abcdef`, and the bold text will show the environment provided when using `npm start`:
+Когда вы загрузите приложение в браузере и проверите "<ввод>", вы увидите, что для него установлено значение "abcdef", а жирным шрифтом выделена среда, предоставляемая при использовании `npm start`:
 
 ```html
 <div>
-  <small>You are running this application in <b>development</b> mode.</small>
-  <form>
-    <input type="hidden" value="abcdef" />
-  </form>
+	<small>You are running this application in <b>development</b> mode.</small>
+	<form>
+		<input type="hidden" value="abcdef" />
+	</form>
 </div>
 ```
 
-The above form is looking for a variable called `REACT_APP_SECRET_CODE` from the environment. In order to consume this
-value, we need to have it defined in the environment. This can be done using two ways: either in your shell or in
-a `.env` file. Both of these ways are described in the next few sections.
+Приведенная выше форма ищет переменную с именем `REACT_APP_SECRET_CODE` из среды. Чтобы использовать это
+значение, нам нужно, чтобы оно было определено в среде. Это можно сделать двумя способами: либо в вашей командной строке, либо в
+файле `.env`. Оба этих способа описаны в следующих нескольких разделах.
 
-Having access to the `NODE_ENV` is also useful for performing actions conditionally:
+Наличие доступа к `NODE_ENV` также полезно для условного выполнения действий:
 
 ```js
 if (process.env.NODE_ENV !== 'production') {
-  analytics.disable();
+	analytics.disable()
 }
 ```
 
-When you compile the app with `npm run build`, the minification step will strip out this condition, and the resulting bundle will be smaller.
+Когда вы компилируете приложение с помощью "npm run build", на этапе минимизации это условие будет устранено, и результирующий пакет будет меньше.
 
-### Referencing Environment Variables in the HTML
+### Ссылки на переменные среды в HTML
 
->Note: this feature is available with `react-scripts@0.9.0` and higher.
+> Примечание: эта функция доступна с помощью `react-scripts@0.9.0" и более поздних версий.
 
-You can also access the environment variables starting with `REACT_APP_` in the `public/index.html`. For example:
+Вы также можете получить доступ к переменным среды, начинающимся с `REACT_APP_` в `public/index.html`. Например:
 
 ```html
 <title>%REACT_APP_WEBSITE_NAME%</title>
 ```
 
-Note that the caveats from the above section apply:
+Обратите внимание, что применяются предостережения из приведенного выше раздела:
 
-* Apart from a few built-in variables (`NODE_ENV` and `PUBLIC_URL`), variable names must start with `REACT_APP_` to work.
-* The environment variables are injected at build time. If you need to inject them at runtime, [follow this approach instead](#generating-dynamic-meta-tags-on-the-server).
+- Для работы, за исключением нескольких встроенных переменных (`NODE_ENV` и `PUBLIC_URL`), имена переменных должны начинаться с `REACT_APP_`.
+- Переменные среды вводятся во время сборки. Если вам нужно ввести их во время выполнения, [вместо этого используйте этот подход] (#генерирование динамических мета-тегов на сервере).
 
-### Adding Temporary Environment Variables In Your Shell
+### Добавление временных переменных среды в вашу командную строку
 
-Defining environment variables can vary between OSes. It’s also important to know that this manner is temporary for the
-life of the shell session.
+Определение переменных среды может варьироваться в зависимости от операционной системы. Также важно знать, что этот способ является временным на весь
+срок действия сеанса shell.
 
 #### Windows (cmd.exe)
 
@@ -950,7 +953,7 @@ life of the shell session.
 set "REACT_APP_SECRET_CODE=abcdef" && npm start
 ```
 
-(Note: Quotes around the variable assignment are required to avoid a trailing whitespace.)
+(Примечание: Кавычки вокруг присвоения переменной необходимы, чтобы избежать пробелов в конце.)
 
 #### Windows (Powershell)
 
@@ -964,47 +967,48 @@ set "REACT_APP_SECRET_CODE=abcdef" && npm start
 REACT_APP_SECRET_CODE=abcdef npm start
 ```
 
-### Adding Development Environment Variables In `.env`
+### Добавление переменных среды разработки в `.env`
 
->Note: this feature is available with `react-scripts@0.5.0` and higher.
+> Примечание: эта функция доступна в `react-scripts@0.5.0` и более поздних версиях.
 
-To define permanent environment variables, create a file called `.env` in the root of your project:
+Чтобы определить постоянные переменные среды, создайте файл с именем `.env" в корне вашего проекта.:
 
 ```
 REACT_APP_SECRET_CODE=abcdef
 ```
->Note: You must create custom environment variables beginning with `REACT_APP_`. Any other variables except `NODE_ENV` will be ignored to avoid [accidentally exposing a private key on the machine that could have the same name](https://github.com/facebookincubator/create-react-app/issues/865#issuecomment-252199527). Changing any environment variables will require you to restart the development server if it is running.
 
-`.env` files **should be** checked into source control (with the exclusion of `.env*.local`).
+> Примечание: Вы должны создать пользовательские переменные среды, начинающиеся с `REACT_APP_`. Любые другие переменные, кроме `NODE_ENV`, будут игнорироваться во избежание [случайного раскрытия закрытого ключа на компьютере, который может иметь такое же имя](https://github.com/facebookincubator/create-react-app/issues/865#issuecomment-252199527). Изменение любых переменных среды потребует от вас перезапуска сервера разработки, если он запущен.
 
-#### What other `.env` files can be used?
+Файлы `.env` ** должны быть ** возвращены в систему управления версиями (за исключением файлов `.env*.local`).
 
->Note: this feature is **available with `react-scripts@1.0.0` and higher**.
+#### Какие еще файлы `.env` можно использовать?
 
-* `.env`: Default.
-* `.env.local`: Local overrides. **This file is loaded for all environments except test.**
-* `.env.development`, `.env.test`, `.env.production`: Environment-specific settings.
-* `.env.development.local`, `.env.test.local`, `.env.production.local`: Local overrides of environment-specific settings.
+> Примечание: эта функция ** доступна для `react-scripts@1.0.0` и более поздних версий **.
 
-Files on the left have more priority than files on the right:
+- `.env`: По умолчанию.
+- `.env.local`: Локальные переопределения. **Этот файл загружается для всех сред, кроме тестовой.**
+- `.env.development`, `.env.test`, `.env.production`: настройки, зависящие от среды.
+- `.env.development.local`, ".env.test.local", ".env.production.локальный`: Локальные переопределения параметров, зависящих от среды.
 
-* `npm start`: `.env.development.local`, `.env.development`, `.env.local`, `.env`
-* `npm run build`: `.env.production.local`, `.env.production`, `.env.local`, `.env`
-* `npm test`: `.env.test.local`, `.env.test`, `.env` (note `.env.local` is missing)
+Файлы слева имеют больший приоритет, чем файлы справа:
 
-These variables will act as the defaults if the machine does not explicitly set them.<br>
-Please refer to the [dotenv documentation](https://github.com/motdotla/dotenv) for more details.
+- `запуск npm": ".env.development.local", ".env.development`, `.env.local`, `.env`
+- `npm запускает сборку`: `.env.production.локальный`, `.env.production`, `.env.local`, `.env`
+- `тест npm": ".env.test.local", ".env.test", ".env" (обратите внимание, что ".env.local" отсутствует)
 
->Note: If you are defining environment variables for development, your CI and/or hosting platform will most likely need
-these defined as well. Consult their documentation how to do this. For example, see the documentation for [Travis CI](https://docs.travis-ci.com/user/environment-variables/) or [Heroku](https://devcenter.heroku.com/articles/config-vars).
+Эти переменные будут использоваться по умолчанию, если компьютер не установит их явно.
+Пожалуйста, обратитесь к документации [dotenv](https://github.com/motdotla/dotenv) для получения более подробной информации.
 
-#### Expanding Environment Variables In `.env`
+> Примечание: Если вы определяете переменные среды для разработки, вашей платформе CI и/или хостинга, скорее всего, потребуется
+> они также определены. Обратитесь к их документации, как это сделать. Например, смотрите документацию для [Travis CI](https://docs.travis-ci.com/user/environment-variables/) или [Heroku](https://devcenter.heroku.com/articles/config-vars).
 
->Note: this feature is available with `react-scripts@1.1.0` and higher.
+#### Расширение переменных среды в `.env`
 
-Expand variables already on your machine for use in your `.env` file (using [dotenv-expand](https://github.com/motdotla/dotenv-expand)).
+> Примечание: эта функция доступна в версиях `react-scripts@1.1.0` и выше.
 
-For example, to get the environment variable `npm_package_version`:
+Расширьте переменные, которые уже установлены на вашем компьютере, для использования в вашем файле `.env` (используя [dotenv-expand](https://github.com/motdotla/dotenv-expand)).
+
+Например, чтобы получить переменную окружения `npm_package_version`:
 
 ```
 REACT_APP_VERSION=$npm_package_version
@@ -1012,7 +1016,7 @@ REACT_APP_VERSION=$npm_package_version
 # REACT_APP_VERSION=${npm_package_version}
 ```
 
-Or expand variables local to the current `.env` file:
+Или разверните переменные, локальные для текущего файла `.env`:
 
 ```
 DOMAIN=www.example.com
@@ -1020,53 +1024,54 @@ REACT_APP_FOO=$DOMAIN/foo
 REACT_APP_BAR=$DOMAIN/bar
 ```
 
-## Can I Use Decorators?
+## Могу ли я использовать декораторы?
 
-Many popular libraries use [decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841) in their documentation.<br>
-Create React App doesn’t support decorator syntax at the moment because:
+Многие популярные библиотеки используют [decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841) в своей документации.
+На данный момент приложение Create React не поддерживает синтаксис декоратора, потому что:
 
-* It is an experimental proposal and is subject to change.
-* The current specification version is not officially supported by Babel.
-* If the specification changes, we won’t be able to write a codemod because we don’t use them internally at Facebook.
+- Это экспериментальное предложение, и оно может быть изменено.
+- Текущая версия спецификации официально не поддерживается Babel.
+- Если спецификация изменится, мы не сможем написать кодовую модификацию, потому что мы не используем ее внутри Facebook.
 
-However in many cases you can rewrite decorator-based code without decorators just as fine.<br>
-Please refer to these two threads for reference:
+Однако во многих случаях вы можете переписать код на основе декоратора без использования декораторов.
+Пожалуйста, обратитесь к этим двум темам для справки:
 
-* [#214](https://github.com/facebookincubator/create-react-app/issues/214)
-* [#411](https://github.com/facebookincubator/create-react-app/issues/411)
+- [#214](https://github.com/facebookincubator/create-react-app/issues/214)
+- [#411](https://github.com/facebookincubator/create-react-app/issues/411)
 
-Create React App will add decorator support when the specification advances to a stable stage.
+Приложение Create React добавит поддержку декоратора, когда спецификация выйдет на стабильную стадию.
 
-## Fetching Data with AJAX Requests
+## Выборка данных с помощью AJAX-запросов
 
-React doesn't prescribe a specific approach to data fetching, but people commonly use either a library like [axios](https://github.com/axios/axios) or the [`fetch()` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) provided by the browser. Conveniently, Create React App includes a polyfill for `fetch()` so you can use it without worrying about the browser support.
+React не предписывает конкретного подхода к выборке данных, но люди обычно используют либо библиотеки, подобные [axios](https://github.com/axios/axios), либо API [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), предоставляемые браузером. Удобно, что приложение Create React включает в себя функцию polyfill для `fetch()`, так что вы можете использовать его, не беспокоясь о поддержке браузера.
 
-The global `fetch` function allows to easily makes AJAX requests. It takes in a URL as an input and returns a `Promise` that resolves to a `Response` object. You can find more information about `fetch` [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
+Глобальная функция "fetch" позволяет легко выполнять AJAX-запросы. Она принимает URL-адрес в качестве входных данных и возвращает "Promise", который преобразуется в объект "Response". Вы можете найти более подробную информацию о `fetch` [здесь](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
 
-This project also includes a [Promise polyfill](https://github.com/then/promise) which provides a full implementation of Promises/A+. A Promise represents the eventual result of an asynchronous operation, you can find more information about Promises [here](https://www.promisejs.org/) and [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). Both axios and `fetch()` use Promises under the hood. You can also use the [`async / await`](https://davidwalsh.name/async-await) syntax to reduce the callback nesting.
+Этот проект также включает в себя [Promise polyfill](https://github.com/then/promise), который обеспечивает полную реализацию Promises/A+. Обещание представляет собой конечный результат асинхронной операции, вы можете найти более подробную информацию о Promises [здесь](https://www.promisejs.org/) и [здесь](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). И axios, и `fetch()` используют Promises в скрытом виде. Вы также можете использовать синтаксис [`async / await`](https://davidwalsh.name/async-await), чтобы уменьшить вложенность обратного вызова.
 
-You can learn more about making AJAX requests from React components in [the FAQ entry on the React website](https://reactjs.org/docs/faq-ajax.html).
+Вы можете узнать больше о выполнении AJAX-запросов из компонентов React в [разделе часто задаваемых вопросов на веб-сайте React](https://reactjs.org/docs/faq-ajax.html).
 
-## Integrating with an API Backend
+## Интеграция с серверной частью API
 
-These tutorials will help you to integrate your app with an API backend running on another port,
-using `fetch()` to access it.
+Эти руководства помогут вам интегрировать ваше приложение с серверной частью API, работающей на другом порту,
+используя для доступа к ней функцию `fetch()`.
 
 ### Node
-Check out [this tutorial](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/).
-You can find the companion GitHub repository [here](https://github.com/fullstackreact/food-lookup-demo).
 
-### Ruby on Rails
+Ознакомьтесь с [этим руководством](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/).
+Вы можете найти сопутствующий репозиторий GitHub [здесь](https://github.com/fullstackreact/food-lookup-demo).
 
-Check out [this tutorial](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/).
-You can find the companion GitHub repository [here](https://github.com/fullstackreact/food-lookup-demo-rails).
+### Ruby на рельсах
 
-## Proxying API Requests in Development
+Ознакомьтесь с [этим tutorial](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/).
+Вы можете найти сопутствующий репозиторий на GitHub [здесь](https://github.com/fullstackreact/food-lookup-demo-rails).
 
->Note: this feature is available with `react-scripts@0.2.3` and higher.
+## Проксирование запросов API в процессе разработки
 
-People often serve the front-end React app from the same host and port as their backend implementation.<br>
-For example, a production setup might look like this after the app is deployed:
+> Примечание: эта функция доступна с `react-scripts@0.2.3` и выше.
+
+Пользователи часто используют интерфейсное приложение React с того же хоста и порта, что и их серверная реализация.<br>
+Например, после развертывания приложения производственная настройка может выглядеть следующим образом:
 
 ```
 /             - static server returns index.html with React app
@@ -1074,48 +1079,48 @@ For example, a production setup might look like this after the app is deployed:
 /api/todos    - server handles any /api/* requests using the backend implementation
 ```
 
-Such setup is **not** required. However, if you **do** have a setup like this, it is convenient to write requests like `fetch('/api/todos')` without worrying about redirecting them to another host or port during development.
+Такая настройка не требуется. Однако, если у вас есть такая настройка, удобно писать запросы типа `fetch('/api/todos')`, не беспокоясь о перенаправлении их на другой хост или порт во время разработки.
 
-To tell the development server to proxy any unknown requests to your API server in development, add a `proxy` field to your `package.json`, for example:
+Чтобы указать серверу разработки перенаправлять любые неизвестные запросы на ваш API-сервер в процессе разработки, добавьте поле "прокси" в свой "package.json", например:
 
 ```js
   "proxy": "http://localhost:4000",
 ```
 
-This way, when you `fetch('/api/todos')` in development, the development server will recognize that it’s not a static asset, and will proxy your request to `http://localhost:4000/api/todos` as a fallback. The development server will **only** attempt to send requests without `text/html` in its `Accept` header to the proxy.
+Таким образом, когда вы "извлекаете("/api/todos")" в процессе разработки, сервер разработки распознает, что это не статический ресурс, и перенаправит ваш запрос на "http://localhost:4000/api/todos" в качестве запасного варианта. Сервер разработки будет пытаться отправлять прокси-серверу запросы без "text/html" в заголовке "Accept".
 
-Conveniently, this avoids [CORS issues](http://stackoverflow.com/questions/21854516/understanding-ajax-cors-and-security-considerations) and error messages like this in development:
+Что удобно, это позволяет избежать [CORS issues](http://stackoverflow.com/questions/21854516/understanding-ajax-cors-and-security-considerations) и сообщений об ошибках, подобных этому, при разработке.:
 
 ```
 Fetch API cannot load http://localhost:4000/api/todos. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://localhost:3000' is therefore not allowed access. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
 ```
 
-Keep in mind that `proxy` only has effect in development (with `npm start`), and it is up to you to ensure that URLs like `/api/todos` point to the right thing in production. You don’t have to use the `/api` prefix. Any unrecognized request without a `text/html` accept header will be redirected to the specified `proxy`.
+Имейте в виду, что "прокси" действует только в процессе разработки (с "запуском npm"), и вы должны убедиться, что URL-адреса, подобные "/api/todos", указывают на нужные объекты в рабочей среде. Вам не обязательно использовать префикс "/api". Любой нераспознанный запрос без заголовка `text/html` accept будет перенаправлен на указанный "прокси".
 
-The `proxy` option supports HTTP, HTTPS and WebSocket connections.<br>
-If the `proxy` option is **not** flexible enough for you, alternatively you can:
+Опция `прокси` поддерживает соединения HTTP, HTTPS и WebSocket.<br>
+Если опция "прокси" для вас недостаточно гибкая, вы можете воспользоваться альтернативой:
 
-* [Configure the proxy yourself](#configuring-the-proxy-manually)
-* Enable CORS on your server ([here’s how to do it for Express](http://enable-cors.org/server_expressjs.html)).
-* Use [environment variables](#adding-custom-environment-variables) to inject the right server host and port into your app.
+- [Настроить прокси самостоятельно](#настройка прокси-сервера вручную).
+- Включите CORS на вашем сервере ([вот как это сделать для Express](http://enable-cors.org/server_expressjs.html)).
+- Используйте [переменные среды] (#добавление пользовательских переменных среды), чтобы внедрить в ваше приложение правильный серверный узел и порт.
 
-### "Invalid Host Header" Errors After Configuring Proxy
+### Ошибки "Недопустимый заголовок Узла" После Настройки Прокси-Сервера
 
-When you enable the `proxy` option, you opt into a more strict set of host checks. This is necessary because leaving the backend open to remote hosts makes your computer vulnerable to DNS rebinding attacks. The issue is explained in [this article](https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a) and [this issue](https://github.com/webpack/webpack-dev-server/issues/887).
+Когда вы включаете опцию "прокси", вы соглашаетесь на более строгий набор проверок хостов. Это необходимо, поскольку, оставляя серверную часть открытой для удаленных хостов, ваш компьютер становится уязвимым для атак с повторной привязкой DNS. Проблема описана в [этой статье](https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a) и [в этом выпуске](https://github.com/webpack/webpack-dev-server/issues/887).
 
-This shouldn’t affect you when developing on `localhost`, but if you develop remotely like [described here](https://github.com/facebookincubator/create-react-app/issues/2271), you will see this error in the browser after enabling the `proxy` option:
+Это не должно повлиять на вас при разработке на "локальном хостинге", но если вы разрабатываете удаленно, как [описано здесь](https://github.com/facebookincubator/create-react-app/issues/2271), вы увидите эту ошибку в браузере после включения опции `прокси`:
 
->Invalid Host header
+> Недопустимый заголовок хоста
 
-To work around it, you can specify your public development host in a file called `.env.development` in the root of your project:
+Чтобы обойти это, вы можете указать свой общедоступный хост разработки в файле с именем ".env.development" в корне вашего проекта:
 
 ```
 HOST=mypublicdevhost.com
 ```
 
-If you restart the development server now and load the app from the specified host, it should work.
+Если вы сейчас перезапустите сервер разработки и загрузите приложение с указанного хоста, оно должно сработать.
 
-If you are still having issues or if you’re using a more exotic environment like a cloud editor, you can bypass the host check completely by adding a line to `.env.development.local`. **Note that this is dangerous and exposes your machine to remote code execution from malicious websites:**
+Если у вас все еще возникают проблемы или вы используете более экзотическую среду, например облачный редактор, вы можете полностью обойти проверку хоста, добавив строку в ".env.development.local". **Обратите внимание, что это опасно и подвергает ваш компьютер удаленному выполнению кода с вредоносных веб-сайтов.:**
 
 ```
 # NOTE: THIS IS DANGEROUS!
@@ -1123,14 +1128,15 @@ If you are still having issues or if you’re using a more exotic environment li
 DANGEROUSLY_DISABLE_HOST_CHECK=true
 ```
 
-We don’t recommend this approach.
+Мы не рекомендуем такой подход.
 
-### Configuring the Proxy Manually
+### Настройка прокси-сервера вручную
 
->Note: this feature is available with `react-scripts@1.0.0` and higher.
+> Примечание: эта функция доступна с параметром "react-scripts@1.0.0` и выше.
 
-If the `proxy` option is **not** flexible enough for you, you can specify an object in the following form (in `package.json`).<br>
-You may also specify any configuration value [`http-proxy-middleware`](https://github.com/chimurai/http-proxy-middleware#options) or [`http-proxy`](https://github.com/nodejitsu/node-http-proxy#options) supports.
+Если параметр `прокси` недостаточно гибок для вас, вы можете указать объект в следующей форме (в файле "package.json`).<br>
+Вы также можете указать любое поддерживаемое значение конфигурации [`http-proxy-middleware`](https://github.com/chimurai/http-proxy-middleware#options) или [`http-proxy`](https://github.com/nodejitsu/node-http-proxy#options).
+
 ```js
 {
   // ...
@@ -1145,10 +1151,11 @@ You may also specify any configuration value [`http-proxy-middleware`](https://g
 }
 ```
 
-All requests matching this path will be proxies, no exceptions. This includes requests for `text/html`, which the standard `proxy` option does not proxy.
+Все запросы, соответствующие этому пути, будут прокси-серверами, без каких-либо исключений. Сюда входят запросы для "text/html", которые не прокси-серверируются стандартным параметром "proxy".
 
-If you need to specify multiple proxies, you may do so by specifying additional entries.
-Matches are regular expressions, so that you can use a regexp to match multiple paths.
+Если вам нужно указать несколько прокси-серверов, вы можете сделать это, указав дополнительные записи.
+Совпадения - это регулярные выражения, так что вы можете использовать регулярное выражение для сопоставления нескольких путей.
+
 ```js
 {
   // ...
@@ -1183,17 +1190,17 @@ Matches are regular expressions, so that you can use a regexp to match multiple 
 }
 ```
 
-### Configuring a WebSocket Proxy
+### Настройка прокси-сервера WebSocket
 
-When setting up a WebSocket proxy, there are a some extra considerations to be aware of.
+При настройке прокси-сервера WebSocket необходимо учитывать некоторые дополнительные соображения.
 
-If you’re using a WebSocket engine like [Socket.io](https://socket.io/), you must have a Socket.io server running that you can use as the proxy target. Socket.io will not work with a standard WebSocket server. Specifically, don't expect Socket.io to work with [the websocket.org echo test](http://websocket.org/echo.html).
+Если вы используете движок WebSocket, такой как [Socket.io](https://socket.io/), у вас должен быть сокет.запущен сервер ввода-вывода, который вы можете использовать в качестве целевого прокси-сервера. Разъем.ввод-вывод не будет работать со стандартным сервером WebSocket. В частности, не ожидайте, что Socket.ввод-вывод будет работать с [тестом websocket.org echo](http://websocket.org/echo.html).
 
-There’s some good documentation available for [setting up a Socket.io server](https://socket.io/docs/).
+Есть хорошая документация по [настройке сокета.сервер ввода-вывода](https://socket.io/docs/).
 
-Standard WebSockets **will** work with a standard WebSocket server as well as the websocket.org echo test. You can use libraries like [ws](https://github.com/websockets/ws) for the server, with [native WebSockets in the browser](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket).
+Стандартные WebSockets ** будут ** работать как со стандартным сервером WebSocket, так и с websocket.org эхо-тест. Вы можете использовать такие библиотеки, как [ws](https://github.com/websockets/ws) для сервера с помощью [встроенных веб-сокетов в браузере](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket).
 
-Either way, you can proxy WebSocket requests manually in `package.json`:
+В любом случае, вы можете проксировать запросы WebSocket вручную в "package.json`:
 
 ```js
 {
@@ -1213,13 +1220,13 @@ Either way, you can proxy WebSocket requests manually in `package.json`:
 }
 ```
 
-## Using HTTPS in Development
+## Использование HTTPS при разработке
 
->Note: this feature is available with `react-scripts@0.4.0` and higher.
+> Примечание: эта функция доступна с `react-scripts@0.4.0` и выше.
 
-You may require the dev server to serve pages over HTTPS. One particular case where this could be useful is when using [the "proxy" feature](#proxying-api-requests-in-development) to proxy requests to an API server when that API server is itself serving HTTPS.
+Возможно, вам потребуется, чтобы сервер разработки обслуживал страницы по протоколу HTTPS. Один из конкретных случаев, когда это может быть полезно, - это использование [функции "прокси"] (#proxying-api-requests-in-development) для прокси-запросов к API-серверу, когда этот API-сервер сам обслуживает HTTPS.
 
-To do this, set the `HTTPS` environment variable to `true`, then start the dev server as usual with `npm start`:
+Чтобы сделать это, установите для переменной окружения "HTTPS" значение "true", затем запустите сервер разработки как обычно с помощью "npm start`:
 
 #### Windows (cmd.exe)
 
@@ -1241,37 +1248,39 @@ set HTTPS=true&&npm start
 HTTPS=true npm start
 ```
 
-Note that the server will use a self-signed certificate, so your web browser will almost definitely display a warning upon accessing the page.
+Обратите внимание, что сервер будет использовать самозаверяющий сертификат, поэтому ваш веб-браузер почти наверняка выдаст предупреждение при доступе к странице.
 
-## Generating Dynamic `<meta>` Tags on the Server
+## Генерирование динамических тегов "<meta>" Теги на сервере
 
-Since Create React App doesn’t support server rendering, you might be wondering how to make `<meta>` tags dynamic and reflect the current URL. To solve this, we recommend to add placeholders into the HTML, like this:
+Поскольку приложение Create React не поддерживает серверный рендеринг, вам может быть интересно, как сделать теги "<meta>" динамическими и отражающими текущий URL. Чтобы решить эту проблему, мы рекомендуем добавить заполнители в HTML, например, так:
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta property="og:title" content="__OG_TITLE__">
-    <meta property="og:description" content="__OG_DESCRIPTION__">
+	<head>
+		<meta property="og:title" content="__OG_TITLE__" />
+		<meta property="og:description" content="__OG_DESCRIPTION__" />
+	</head>
+</html>
 ```
 
-Then, on the server, regardless of the backend you use, you can read `index.html` into memory and replace `__OG_TITLE__`, `__OG_DESCRIPTION__`, and any other placeholders with values depending on the current URL. Just make sure to sanitize and escape the interpolated values so that they are safe to embed into HTML!
+Затем на сервере, независимо от используемого вами бэкенда, вы можете записать "index.html" в память и заменить `__OG_TITLE__`, `__OG_DESCRIPTION__` и любые другие заполнители значениями, зависящими от текущего URL. Просто убедитесь, что интерполированные значения обработаны и экранированы, чтобы их можно было безопасно вставлять в HTML!
 
-If you use a Node server, you can even share the route matching logic between the client and the server. However duplicating it also works fine in simple cases.
+Если вы используете сервер Node, вы даже можете совместно использовать логику сопоставления маршрутов между клиентом и сервером. Однако дублирование также отлично работает в простых случаях.
 
-## Pre-Rendering into Static HTML Files
+## Предварительный рендеринг в статические HTML-файлы
 
-If you’re hosting your `build` with a static hosting provider you can use [react-snapshot](https://www.npmjs.com/package/react-snapshot) or [react-snap](https://github.com/stereobooster/react-snap) to generate HTML pages for each route, or relative link, in your application. These pages will then seamlessly become active, or “hydrated”, when the JavaScript bundle has loaded.
+Если вы размещаете свою "сборку" у поставщика статического хостинга, вы можете использовать [react-snapshot](https://www.npmjs.com/package/react-snapshot) или [react-snapshot](https://github.com/stereobooster/react-snap) для создания HTML-страниц для каждого маршрута или относительной ссылки в вашем приложении. Затем эти страницы будут автоматически активированы, или “увлажнены”, после загрузки пакета JavaScript.
 
-There are also opportunities to use this outside of static hosting, to take the pressure off the server when generating and caching routes.
+Также есть возможности использовать это за пределами статического хостинга, чтобы снизить нагрузку на сервер при генерации и кэшировании маршрутов.
 
-The primary benefit of pre-rendering is that you get the core content of each page _with_ the HTML payload—regardless of whether or not your JavaScript bundle successfully downloads. It also increases the likelihood that each route of your application will be picked up by search engines.
+Основное преимущество предварительного рендеринга заключается в том, что вы получаете основное содержимое каждой страницы с полезной нагрузкой HTML - независимо от того, успешно ли загружен ваш пакет JavaScript. Это также увеличивает вероятность того, что поисковые системы будут отслеживать каждый маршрут вашего приложения.
 
-You can read more about [zero-configuration pre-rendering (also called snapshotting) here](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319).
+Вы можете прочитать больше о [предварительном рендеринге с нулевой настройкой (также называемом моментальным снимком) здесь](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319).
 
-## Injecting Data from the Server into the Page
+## Ввод данных с сервера на страницу
 
-Similarly to the previous section, you can leave some placeholders in the HTML that inject global variables, for example:
+Аналогично предыдущему разделу, вы можете оставить в HTML некоторые заполнители, которые вводят глобальные переменные, например:
 
 ```js
 <!doctype html>
@@ -1282,149 +1291,149 @@ Similarly to the previous section, you can leave some placeholders in the HTML t
     </script>
 ```
 
-Then, on the server, you can replace `__SERVER_DATA__` with a JSON of real data right before sending the response. The client code can then read `window.SERVER_DATA` to use it. **Make sure to [sanitize the JSON before sending it to the client](https://medium.com/node-security/the-most-common-xss-vulnerability-in-react-js-applications-2bdffbcc1fa0) as it makes your app vulnerable to XSS attacks.**
+Затем, на сервере, вы можете заменить "**SERVER_DATA**" на JSON-файл с реальными данными непосредственно перед отправкой ответа. Затем клиентский код может прочитать "window.SERVER_DATA", чтобы использовать его. ** Обязательно [очистите JSON-файл перед отправкой в client](https://medium.com/node-security/the-most-common-xss-vulnerability-in-react-js-applications-2bdffbcc1fa0), так как это делает ваше приложение уязвимым для XSS-атак.**
 
-## Running Tests
+## Запуск тестов
 
->Note: this feature is available with `react-scripts@0.3.0` and higher.<br>
->[Read the migration guide to learn how to enable it in older projects!](https://github.com/facebookincubator/create-react-app/blob/master/CHANGELOG.md#migrating-from-023-to-030)
+> Примечание: эта функция доступна с "react-scripts@0.3.0` и выше.<br> >[Прочитайте руководство по миграции, чтобы узнать, как включить ее в старых проектах!](https://github.com/facebookincubator/create-react-app/blob/master/CHANGELOG.md#migrating-from-023-to-030)
 
-Create React App uses [Jest](https://facebook.github.io/jest/) as its test runner. To prepare for this integration, we did a [major revamp](https://facebook.github.io/jest/blog/2016/09/01/jest-15.html) of Jest so if you heard bad things about it years ago, give it another try.
+Приложение Create React использует [Jest](https://facebook.github.io/jest/) в качестве средства запуска тестирования. Чтобы подготовиться к этой интеграции, мы провели [серьезную переработку] (https://facebook.github.io/jest/blog/2016/09/01/jest-15.html) Jest, так что, если вы слышали о нем плохие отзывы много лет назад, попробуйте еще раз.
 
-Jest is a Node-based runner. This means that the tests always run in a Node environment and not in a real browser. This lets us enable fast iteration speed and prevent flakiness.
+Jest запускается на основе Node. Это означает, что тесты всегда выполняются в среде Node, а не в реальном браузере. Это позволяет нам увеличить скорость итераций и избежать сбоев.
 
-While Jest provides browser globals such as `window` thanks to [jsdom](https://github.com/tmpvar/jsdom), they are only approximations of the real browser behavior. Jest is intended to be used for unit tests of your logic and your components rather than the DOM quirks.
+В то время как Jest предоставляет глобальные настройки браузера, такие как "window", благодаря [jsdom](https://github.com/tmpvar/jsdom), они являются лишь приблизительным отображением реального поведения браузера. Jest предназначен для модульного тестирования вашей логики и ваших компонентов, а не для использования в DOM.
 
-We recommend that you use a separate tool for browser end-to-end tests if you need them. They are beyond the scope of Create React App.
+Мы рекомендуем вам использовать отдельный инструмент для сквозных тестов браузера, если они вам нужны. Они выходят за рамки Create React App.
 
-### Filename Conventions
+### Соглашения об именах файлов
 
-Jest will look for test files with any of the following popular naming conventions:
+Jest будет искать тестовые файлы с любым из следующих популярных соглашений об именах:
 
-* Files with `.js` suffix in `__tests__` folders.
-* Files with `.test.js` suffix.
-* Files with `.spec.js` suffix.
+- Файлы с суффиксом ".js" в папках "**tests**".
+- Файлы с суффиксом ".test.js.
+- Файлы с суффиксом ".spec.js`.
 
-The `.test.js` / `.spec.js` files (or the `__tests__` folders) can be located at any depth under the `src` top level folder.
+Файлы `.test.js` / `.spec.js" (или папки "**tests**") могут быть расположены на любой глубине в папке верхнего уровня "src".
 
-We recommend to put the test files (or `__tests__` folders) next to the code they are testing so that relative imports appear shorter. For example, if `App.test.js` and `App.js` are in the same folder, the test just needs to `import App from './App'` instead of a long relative path. Colocation also helps find tests more quickly in larger projects.
+Мы рекомендуем размещать тестовые файлы (или папки `__tests__`) рядом с тестируемым кодом, чтобы относительный импорт был короче. Например, если "App.test.js`и`App.js" находятся в одной и той же папке, для теста просто нужно "импортировать приложение из "./App" вместо длинного относительного пути. Расположение по умолчанию также помогает быстрее находить тесты в крупных проектах.
 
-### Command Line Interface
+### Интерфейс командной строки
 
-When you run `npm test`, Jest will launch in the watch mode. Every time you save a file, it will re-run the tests, just like `npm start` recompiles the code.
+Когда вы запускаете "npm test", Jest запускается в режиме просмотра. Каждый раз, когда вы сохраняете файл, он повторно запускает тесты, точно так же, как "npm start" перекомпилирует код.
 
-The watcher includes an interactive command-line interface with the ability to run all tests, or focus on a search pattern. It is designed this way so that you can keep it open and enjoy fast re-runs. You can learn the commands from the “Watch Usage” note that the watcher prints after every run:
+Программа watcher включает в себя интерактивный интерфейс командной строки, позволяющий запускать все тесты или ориентироваться на шаблон поиска. Она разработана таким образом, чтобы вы могли держать ее открытой и наслаждаться быстрым повторным запуском. Вы можете ознакомиться с командами в разделе “Использование Watch”. Обратите внимание, что программа watcher печатает после каждого запуска:
 
-![Jest watch mode](http://facebook.github.io/jest/img/blog/15-watch.gif)
+![Простой режим просмотра](http://facebook.github.io/jest/img/blog/15-watch.gif)
 
-### Version Control Integration
+### Интеграция с системой контроля версий
 
-By default, when you run `npm test`, Jest will only run the tests related to files changed since the last commit. This is an optimization designed to make your tests run fast regardless of how many tests you have. However it assumes that you don’t often commit the code that doesn’t pass the tests.
+По умолчанию, когда вы запускаете "npm-тест", Jest запускает только тесты, относящиеся к файлам, измененным с момента последней фиксации. Это оптимизация, разработанная для того, чтобы ваши тесты выполнялись быстро, независимо от того, сколько у вас тестов. Однако предполагается, что вы не часто фиксируете код, который не проходит тесты.
 
-Jest will always explicitly mention that it only ran tests related to the files changed since the last commit. You can also press `a` in the watch mode to force Jest to run all tests.
+В Jest всегда будет явно указано, что он запускал тесты, относящиеся только к файлам, измененным с момента последней фиксации. Вы также можете нажать "a" в режиме просмотра, чтобы заставить Jest выполнить все тесты.
 
-Jest will always run all tests on a [continuous integration](#continuous-integration) server or if the project is not inside a Git or Mercurial repository.
+Jest всегда будет запускать все тесты на сервере [непрерывной интеграции] (#continuous-integration) или если проект не находится в репозитории Git или Mercurial.
 
-### Writing Tests
+### Написание тестов
 
-To create tests, add `it()` (or `test()`) blocks with the name of the test and its code. You may optionally wrap them in `describe()` blocks for logical grouping but this is neither required nor recommended.
+Чтобы создать тесты, добавьте блоки "it()" (или "test()") с названием теста и его кодом. При желании вы можете обернуть их в блоки "describe()" для логической группировки, но это не обязательно и не рекомендуется.
 
-Jest provides a built-in `expect()` global function for making assertions. A basic test could look like this:
+Jest предоставляет встроенную глобальную функцию expect() для создания утверждений. Базовый тест может выглядеть следующим образом:
 
 ```js
-import sum from './sum';
+import sum from './sum'
 
 it('sums numbers', () => {
-  expect(sum(1, 2)).toEqual(3);
-  expect(sum(2, 2)).toEqual(4);
-});
+	expect(sum(1, 2)).toEqual(3)
+	expect(sum(2, 2)).toEqual(4)
+})
 ```
 
-All `expect()` matchers supported by Jest are [extensively documented here](https://facebook.github.io/jest/docs/en/expect.html#content).<br>
-You can also use [`jest.fn()` and `expect(fn).toBeCalled()`](https://facebook.github.io/jest/docs/en/expect.html#tohavebeencalled) to create “spies” or mock functions.
+Все средства сопоставления `expect()`, поддерживаемые Just, [подробно описаны здесь](https://facebook.github.io/jest/docs/en/expect.html#content).<br>
+Вы также можете использовать [`jest.fn()` и `expect(fn).toBeCalled()`](https://facebook.github.io/jest/docs/en/expect.html#tohavebeencalled) для создания “шпионских” или имитационных функций.
 
-### Testing Components
+### Тестирование компонентов
 
-There is a broad spectrum of component testing techniques. They range from a “smoke test” verifying that a component renders without throwing, to shallow rendering and testing some of the output, to full rendering and testing component lifecycle and state changes.
+Существует широкий спектр методов тестирования компонентов. Они варьируются от “дымового теста”, проверяющего, что компонент отрисовывается без сбоев, до поверхностного рендеринга и тестирования части выходных данных, а также полного рендеринга и тестирования жизненного цикла компонента и изменений состояния.
 
-Different projects choose different testing tradeoffs based on how often components change, and how much logic they contain. If you haven’t decided on a testing strategy yet, we recommend that you start with creating simple smoke tests for your components:
+В разных проектах используются разные подходы к тестированию в зависимости от того, как часто меняются компоненты и какой объем логики они содержат. Если вы еще не определились со стратегией тестирования, мы рекомендуем начать с создания простых smoke-тестов для ваших компонентов:
 
 ```js
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-});
+	const div = document.createElement('div')
+	ReactDOM.render(<App />, div)
+})
 ```
 
-This test mounts a component and makes sure that it didn’t throw during rendering. Tests like this provide a lot of value with very little effort so they are great as a starting point, and this is the test you will find in `src/App.test.js`.
+Этот тест монтирует компонент и проверяет, не произошел ли сбой в его работе во время рендеринга. Тесты, подобные этому, приносят большую пользу при минимальных усилиях, поэтому они хороши в качестве отправной точки, и именно этот тест вы найдете в разделе `src/App.test.js`.
 
-When you encounter bugs caused by changing components, you will gain a deeper insight into which parts of them are worth testing in your application. This might be a good time to introduce more specific tests asserting specific expected output or behavior.
+Когда вы столкнетесь с ошибками, вызванными изменением компонентов, вы получите более глубокое представление о том, какие из них стоит протестировать в вашем приложении. Возможно, сейчас самое подходящее время представить более конкретные тесты, подтверждающие конкретные ожидаемые результаты или поведение.
 
-If you’d like to test components in isolation from the child components they render, we recommend using [`shallow()` rendering API](http://airbnb.io/enzyme/docs/api/shallow.html) from [Enzyme](http://airbnb.io/enzyme/). To install it, run:
+Если вы хотите протестировать компоненты отдельно от дочерних компонентов, которые они отображают, мы рекомендуем использовать [`shallow()` rendering API](http://airbnb.io/enzyme/docs/api/shallow.html) из [Enzyme](http://airbnb.io/enzyme/). Чтобы установить его, запустите:
 
 ```sh
 npm install --save enzyme enzyme-adapter-react-16 react-test-renderer
 ```
 
-Alternatively you may use `yarn`:
+В качестве альтернативы вы можете использовать `yarn`:
 
 ```sh
 yarn add enzyme enzyme-adapter-react-16 react-test-renderer
 ```
 
-As of Enzyme 3, you will need to install Enzyme along with an Adapter corresponding to the version of React you are using. (The examples above use the adapter for React 16.)
+Начиная с Enzyme 3, вам нужно будет установить Enzyme вместе с адаптером, соответствующим используемой вами версии React. (В приведенных выше примерах используется адаптер для React 16.)
 
-The adapter will also need to be configured in your [global setup file](#initializing-test-environment):
+Адаптер также необходимо будет настроить в вашем [глобальном установочном файле] (#initializing-test-environment).:
 
 #### `src/setupTests.js`
-```js
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
 
-configure({ adapter: new Adapter() });
+```js
+import { configure } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
+
+configure({ adapter: new Adapter() })
 ```
 
->Note: Keep in mind that if you decide to "eject" before creating `src/setupTests.js`, the resulting `package.json` file won't contain any reference to it. [Read here](#initializing-test-environment) to learn how to add this after ejecting.
+> Примечание: Имейте в виду, что если вы решите "удалить" перед созданием "src/setupTests.js", результирующий файл "package.json" не будет содержать никаких ссылок на него. [Прочитайте здесь](#initializing-test-environment), чтобы узнать, как добавить это после извлечения.
 
-Now you can write a smoke test with it:
+Теперь вы можете написать тест на курение с его помощью:
 
 ```js
-import React from 'react';
-import { shallow } from 'enzyme';
-import App from './App';
+import React from 'react'
+import { shallow } from 'enzyme'
+import App from './App'
 
 it('renders without crashing', () => {
-  shallow(<App />);
-});
+	shallow(<App />)
+})
 ```
 
-Unlike the previous smoke test using `ReactDOM.render()`, this test only renders `<App>` and doesn’t go deeper. For example, even if `<App>` itself renders a `<Button>` that throws, this test will pass. Shallow rendering is great for isolated unit tests, but you may still want to create some full rendering tests to ensure the components integrate correctly. Enzyme supports [full rendering with `mount()`](http://airbnb.io/enzyme/docs/api/mount.html), and you can also use it for testing state changes and component lifecycle.
+В отличие от предыдущего теста smoke с использованием "ReactDOM.render()", этот тест отображает только "<Приложение>" и не углубляется. Например, даже если "<Приложение>" само отображает "<Кнопку>", которая запускается, этот тест будет пройден. Поверхностный рендеринг отлично подходит для изолированных модульных тестов, но вы все равно можете захотеть создать несколько полноценных тестов рендеринга, чтобы убедиться в правильной интеграции компонентов. Enzyme поддерживает [полный рендеринг с помощью `mount()`](http://airbnb.io/enzyme/docs/api/mount.html), и вы также можете использовать его для тестирования изменений состояния и жизненного цикла компонентов.
 
-You can read the [Enzyme documentation](http://airbnb.io/enzyme/) for more testing techniques. Enzyme documentation uses Chai and Sinon for assertions but you don’t have to use them because Jest provides built-in `expect()` and `jest.fn()` for spies.
+Вы можете прочитать [Документацию по ферментам](http://airbnb.io/enzyme/) для получения дополнительной информации о методах тестирования. В документации по ферментам используются Chai и Sinon для утверждений, но вам не обязательно их использовать, поскольку Jest предоставляет встроенные функции `expect()` и `jest.fn()` для шпионов.
 
-Here is an example from Enzyme documentation that asserts specific output, rewritten to use Jest matchers:
+Вот пример из документации Enzyme, который утверждает конкретные выходные данные, переписанные для использования Jest matchers:
 
 ```js
-import React from 'react';
-import { shallow } from 'enzyme';
-import App from './App';
+import React from 'react'
+import { shallow } from 'enzyme'
+import App from './App'
 
 it('renders welcome message', () => {
-  const wrapper = shallow(<App />);
-  const welcome = <h2>Welcome to React</h2>;
-  // expect(wrapper.contains(welcome)).to.equal(true);
-  expect(wrapper.contains(welcome)).toEqual(true);
-});
+	const wrapper = shallow(<App />)
+	const welcome = <h2>Welcome to React</h2>
+	// expect(wrapper.contains(welcome)).to.equal(true);
+	expect(wrapper.contains(welcome)).toEqual(true)
+})
 ```
 
-All Jest matchers are [extensively documented here](http://facebook.github.io/jest/docs/en/expect.html).<br>
-Nevertheless you can use a third-party assertion library like [Chai](http://chaijs.com/) if you want to, as described below.
+Все средства сопоставления Jest [подробно описаны здесь] (http://facebook.github.io/jest/docs/en/expect.html).
+Тем не менее, вы можете использовать стороннюю библиотеку утверждений, такую как [Chai] (http://chaijs.com/), если хотите, как описано ниже.
 
-Additionally, you might find [jest-enzyme](https://github.com/blainekasten/enzyme-matchers) helpful to simplify your tests with readable matchers. The above `contains` code can be written more simply with jest-enzyme.
+Кроме того, вы можете найти [jest-enzyme](https://github.com/blainekasten/enzyme-matchers) полезным для упрощения ваших тестов с помощью удобочитаемых средств сопоставления. Приведенный выше код "contains" может быть написан более просто с помощью jest-enzyme.
 
 ```js
 expect(wrapper).toContainReact(welcome)
@@ -1445,111 +1454,115 @@ yarn add jest-enzyme
 Import it in [`src/setupTests.js`](#initializing-test-environment) to make its matchers available in every test:
 
 ```js
-import 'jest-enzyme';
+import 'jest-enzyme'
 ```
 
-### Using Third Party Assertion Libraries
+### Использование сторонних библиотек утверждений
 
-We recommend that you use `expect()` for assertions and `jest.fn()` for spies. If you are having issues with them please [file those against Jest](https://github.com/facebook/jest/issues/new), and we’ll fix them. We intend to keep making them better for React, supporting, for example, [pretty-printing React elements as JSX](https://github.com/facebook/jest/pull/1566).
+Мы рекомендуем использовать `expect()` для утверждений и `jest.fn()` для шпионов. Если у вас возникли проблемы с ними, пожалуйста, [отметьте их в Jest](https://github.com/facebook/jest/issues/new), и мы их исправим. Мы намерены продолжать улучшать их для React, поддерживая, например, [красивую печать элементов React в формате JSX](https://github.com/facebook/jest/pull/1566).
 
-However, if you are used to other libraries, such as [Chai](http://chaijs.com/) and [Sinon](http://sinonjs.org/), or if you have existing code using them that you’d like to port over, you can import them normally like this:
+Однако, если вы привыкли к другим библиотекам, таким как [Chai](http://chaijs.com/) и [Sinon](http://sinonjs.org/), или если у вас есть существующий код, использующий их, который вы хотели бы перенести, вы можете импортировать их обычным способом следующим образом:
 
 ```js
-import sinon from 'sinon';
-import { expect } from 'chai';
+import sinon from 'sinon'
+import { expect } from 'chai'
 ```
 
-and then use them in your tests like you normally do.
+а затем используйте их в своих тестах, как обычно.
 
-### Initializing Test Environment
+### Инициализация тестовой среды
 
->Note: this feature is available with `react-scripts@0.4.0` and higher.
+> Примечание: эта функция доступна с `react-scripts@0.4.0" и выше.
 
-If your app uses a browser API that you need to mock in your tests or if you just need a global setup before running your tests, add a `src/setupTests.js` to your project. It will be automatically executed before running your tests.
+Если ваше приложение использует API браузера, который вам нужно имитировать в тестах, или если вам просто нужна глобальная настройка перед запуском тестов, добавьте в свой проект символ "src/setupTests.js`. Он будет автоматически выполнен перед запуском тестов.
 
-For example:
+Например:
 
 #### `src/setupTests.js`
+
 ```js
 const localStorageMock = {
-  getItem: jest.fn(),
-  setItem: jest.fn(),
-  clear: jest.fn()
-};
+	getItem: jest.fn(),
+	setItem: jest.fn(),
+	clear: jest.fn(),
+}
 global.localStorage = localStorageMock
 ```
 
->Note: Keep in mind that if you decide to "eject" before creating `src/setupTests.js`, the resulting `package.json` file won't contain any reference to it, so you should manually create the property `setupTestFrameworkScriptFile` in the configuration for Jest, something like the following:
+> Примечание: Имейте в виду, что если вы решите "извлечь" перед созданием `src/setupTests.js `, результирующий файл "package.json" не будет содержать никаких ссылок на него, поэтому вам следует вручную создать свойство "setupTestFrameworkScriptFile" в конфигурации для Jest, что-то вроде следующего:
 
->```js
->"jest": {
+> ```js
+> "jest": {
 >   // ...
 >   "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
 >  }
->  ```
+> ```
 
-### Focusing and Excluding Tests
+### Фокусировка и исключение тестов
 
-You can replace `it()` with `xit()` to temporarily exclude a test from being executed.<br>
-Similarly, `fit()` lets you focus on a specific test without running any other tests.
+Вы можете заменить "it()" на "it()", чтобы временно исключить выполнение теста.<br>
+Аналогично, "fit()" позволяет сосредоточиться на конкретном тесте, не выполняя никаких других тестов.
 
 ### Coverage Reporting
 
-Jest has an integrated coverage reporter that works well with ES6 and requires no configuration.<br>
-Run `npm test -- --coverage` (note extra `--` in the middle) to include a coverage report like this:
+В Jest встроен coverage reporter, который хорошо работает с ES6 и не требует настройки.<br>
+Запустите `npm test -- --coverage` (обратите внимание на дополнительный `--` в середине) чтобы включить отчет о покрытии, подобный этому:
 
 ![coverage report](http://i.imgur.com/5bFhnTS.png)
 
-Note that tests run much slower with coverage so it is recommended to run it separately from your normal workflow.
+Обратите внимание, что тесты с покрытием выполняются намного медленнее, поэтому рекомендуется запускать их отдельно от обычного рабочего процесса.
 
-#### Configuration
+#### Конфигурация
 
-The default Jest coverage configuration can be overriden by adding any of the following supported keys to a Jest config in your package.json.
+Конфигурация покрытия Jest по умолчанию может быть изменена путем добавления любого из следующих поддерживаемых ключей в конфигурацию Jest в вашем package.json.
 
-Supported overrides:
- - [`collectCoverageFrom`](https://facebook.github.io/jest/docs/en/configuration.html#collectcoveragefrom-array)
- - [`coverageReporters`](https://facebook.github.io/jest/docs/en/configuration.html#coveragereporters-array-string)
- - [`coverageThreshold`](https://facebook.github.io/jest/docs/en/configuration.html#coveragethreshold-object)
- - [`snapshotSerializers`](https://facebook.github.io/jest/docs/en/configuration.html#snapshotserializers-array-string)
+Поддерживаемые переопределения:
 
-Example package.json:
+- [`collectCoverageFrom`](https://facebook.github.io/jest/docs/en/configuration.html#collectcoveragefrom-array)
+- [`coverageReporters`](https://facebook.github.io/jest/docs/en/configuration.html#coveragereporters-array-string)
+- [`coverageThreshold`](https://facebook.github.io/jest/docs/en/configuration.html#coveragethreshold-object)
+- [`snapshotSerializers`](https://facebook.github.io/jest/docs/en/configuration.html#snapshotserializers-array-string)
+
+Пример package.json:
 
 ```json
 {
-  "name": "your-package",
-  "jest": {
-    "collectCoverageFrom" : [
-      "src/**/*.{js,jsx}",
-      "!<rootDir>/node_modules/",
-      "!<rootDir>/path/to/dir/"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 90,
-        "functions": 90,
-        "lines": 90,
-        "statements": 90
-      }
-    },
-    "coverageReporters": ["text"],
-    "snapshotSerializers": ["my-serializer-module"]
-  }
+	"name": "your-package",
+	"jest": {
+		"collectCoverageFrom": [
+			"src/**/*.{js,jsx}",
+			"!<rootDir>/node_modules/",
+			"!<rootDir>/path/to/dir/"
+		],
+		"coverageThreshold": {
+			"global": {
+				"branches": 90,
+				"functions": 90,
+				"lines": 90,
+				"statements": 90
+			}
+		},
+		"coverageReporters": ["text"],
+		"snapshotSerializers": ["my-serializer-module"]
+	}
 }
 ```
 
-### Continuous Integration
+### Непрерывная интеграция
 
-By default `npm test` runs the watcher with interactive CLI. However, you can force it to run tests once and finish the process by setting an environment variable called `CI`.
+По умолчанию `npm test` запускает программу watcher с интерактивным интерфейсом командной строки. Однако вы можете принудительно запустить тесты один раз и завершить процесс, установив переменную среды с именем `CI`.
 
-When creating a build of your application with `npm run build` linter warnings are not checked by default. Like `npm test`, you can force the build to perform a linter warning check by setting the environment variable `CI`. If any warnings are encountered then the build fails.
+При создании сборки вашего приложения с помощью "npm run build" предупреждения о линтере по умолчанию не проверяются. Как и в случае с "npm test", вы можете принудительно выполнить проверку предупреждений о линтере, установив переменную окружения "CI". Если возникают какие-либо предупреждения, то сборка завершается ошибкой.
 
-Popular CI servers already set the environment variable `CI` by default but you can do this yourself too:
+Популярные серверы CI уже установили переменную среды "CI" по умолчанию, но вы также можете сделать это самостоятельно:
 
-### On CI servers
+### На серверах CI
+
 #### Travis CI
 
-1. Following the [Travis Getting started](https://docs.travis-ci.com/user/getting-started/) guide for syncing your GitHub repository with Travis.  You may need to initialize some settings manually in your [profile](https://travis-ci.org/profile) page.
-1. Add a `.travis.yml` file to your git repository.
+1. Следуйте руководству [Начало работы Travis](https://docs.travis-ci.com/user/getting-started/) по синхронизации вашего репозитория GitHub с Travis. Возможно, вам потребуется вручную инициализировать некоторые настройки на странице [профиль](https://travis-ci.org/profile).
+2. Добавьте файл `.travis.yml` в свой репозиторий git.
+
 ```
 language: node_js
 node_js:
@@ -1561,14 +1574,16 @@ script:
   - npm run build
   - npm test
 ```
-1. Trigger your first build with a git push.
-1. [Customize your Travis CI Build](https://docs.travis-ci.com/user/customizing-the-build/) if needed.
+
+3. Запустите свою первую сборку с помощью git push.
+4. [При необходимости настройте сборку Travis CI](https://docs.travis-ci.com/user/customizing-the-build/).
 
 #### CircleCI
 
-Follow [this article](https://medium.com/@knowbody/circleci-and-zeits-now-sh-c9b7eebcd3c1) to set up CircleCI with a Create React App project.
+Следуйте [этой статье](https://medium.com/@knowbody/circleci-and-zeits-now-sh-c9b7eebcd3c1), чтобы настроить CircleCI с помощью проекта Create React App.
 
-### On your own environment
+### В вашем собственном окружении
+
 ##### Windows (cmd.exe)
 
 ```cmd
@@ -1601,15 +1616,15 @@ CI=true npm test
 CI=true npm run build
 ```
 
-The test command will force Jest to run tests once instead of launching the watcher.
+Команда test заставит выполнить тесты только один раз вместо запуска наблюдателя.
 
->  If you find yourself doing this often in development, please [file an issue](https://github.com/facebookincubator/create-react-app/issues/new) to tell us about your use case because we want to make watcher the best experience and are open to changing how it works to accommodate more workflows.
+> Если вы часто сталкиваетесь с этим в процессе разработки, пожалуйста, [сообщите о проблеме] (https://github.com/facebookincubator/create-react-app/issues/new), чтобы рассказать нам о вашем варианте использования, потому что мы хотим сделать watcher максимально удобным и готовы изменить его работу, чтобы приспособить к большему количеству рабочих процессов.
 
-The build command will check for linter warnings and fail if any are found.
+Команда build проверит наличие предупреждений linter и завершит работу с ошибкой, если таковые будут обнаружены.
 
-### Disabling jsdom
+### Отключение jsdom
 
-By default, the `package.json` of the generated project looks like this:
+По умолчанию "package.json" сгенерированного проекта выглядит следующим образом:
 
 ```js
   "scripts": {
@@ -1618,7 +1633,7 @@ By default, the `package.json` of the generated project looks like this:
     "test": "react-scripts test --env=jsdom"
 ```
 
-If you know that none of your tests depend on [jsdom](https://github.com/tmpvar/jsdom), you can safely remove `--env=jsdom`, and your tests will run faster:
+Если вы знаете, что ни один из ваших тестов не зависит от [jsdom](https://github.com/tmpvar/jsdom), вы можете спокойно удалить `--env=jsdom`, и ваши тесты будут выполняться быстрее:
 
 ```diff
   "scripts": {
@@ -1628,65 +1643,70 @@ If you know that none of your tests depend on [jsdom](https://github.com/tmpvar/
 +   "test": "react-scripts test"
 ```
 
-To help you make up your mind, here is a list of APIs that **need jsdom**:
+Чтобы помочь вам определиться, вот список API, для которых **need jsdom**:
 
-* Any browser globals like `window` and `document`
-* [`ReactDOM.render()`](https://facebook.github.io/react/docs/top-level-api.html#reactdom.render)
-* [`TestUtils.renderIntoDocument()`](https://facebook.github.io/react/docs/test-utils.html#renderintodocument) ([a shortcut](https://github.com/facebook/react/blob/34761cf9a252964abfaab6faf74d473ad95d1f21/src/test/ReactTestUtils.js#L83-L91) for the above)
-* [`mount()`](http://airbnb.io/enzyme/docs/api/mount.html) in [Enzyme](http://airbnb.io/enzyme/index.html)
+- Any browser globals like `window` and `document`
+- [`ReactDOM.render()`](https://facebook.github.io/react/docs/top-level-api.html#reactdom.render)
+- [`TestUtils.renderIntoDocument()`](https://facebook.github.io/react/docs/test-utils.html#renderintodocument) ([a shortcut](https://github.com/facebook/react/blob/34761cf9a252964abfaab6faf74d473ad95d1f21/src/test/ReactTestUtils.js#L83-L91) for the above)
+- [`mount()`](http://airbnb.io/enzyme/docs/api/mount.html) in [Enzyme](http://airbnb.io/enzyme/index.html)
 
-In contrast, **jsdom is not needed** for the following APIs:
+Напротив, **jsdom is not needed** для следующих APIs:
 
-* [`TestUtils.createRenderer()`](https://facebook.github.io/react/docs/test-utils.html#shallow-rendering) (shallow rendering)
-* [`shallow()`](http://airbnb.io/enzyme/docs/api/shallow.html) in [Enzyme](http://airbnb.io/enzyme/index.html)
+- [`TestUtils.createRenderer()`](https://facebook.github.io/react/docs/test-utils.html#shallow-rendering) (shallow rendering)
+- [`shallow()`](http://airbnb.io/enzyme/docs/api/shallow.html) in [Enzyme](http://airbnb.io/enzyme/index.html)
 
 Finally, jsdom is also not needed for [snapshot testing](http://facebook.github.io/jest/blog/2016/07/27/jest-14.html).
 
-### Snapshot Testing
+### Тестирование моментальных снимков
 
-Snapshot testing is a feature of Jest that automatically generates text snapshots of your components and saves them on the disk so if the UI output changes, you get notified without manually writing any assertions on the component output. [Read more about snapshot testing.](http://facebook.github.io/jest/blog/2016/07/27/jest-14.html)
+Тестирование моментальных снимков - это функция Jest, которая автоматически создает текстовые снимки ваших компонентов и сохраняет их на диске, поэтому, если выходные данные пользовательского интерфейса изменятся, вы получите уведомление без необходимости вручную вводить какие-либо утверждения в выходные данные компонента. [Подробнее о тестировании моментальных снимков.](http://facebook.github.io/jest/blog/2016/07/27/jest-14.html)
 
-### Editor Integration
+### Интеграция с редактором
 
-If you use [Visual Studio Code](https://code.visualstudio.com), there is a [Jest extension](https://github.com/orta/vscode-jest) which works with Create React App out of the box. This provides a lot of IDE-like features while using a text editor: showing the status of a test run with potential fail messages inline, starting and stopping the watcher automatically, and offering one-click snapshot updates.
+Если вы используете [Visual Studio Code](https://code.visualstudio.com), есть [расширение Jest](https://github.com/orta/vscode-jest), которое работает с приложением Create React "из коробки". Это обеспечивает множество функций, аналогичных IDE, при использовании текстового редактора: отображение статуса тестового запуска с сообщениями о возможных ошибках, автоматический запуск и остановка программы наблюдения, а также возможность обновления моментальных снимков одним щелчком мыши.
 
 ![VS Code Jest Preview](https://cloud.githubusercontent.com/assets/49038/20795349/a032308a-b7c8-11e6-9b34-7eeac781003f.png)
 
-## Debugging Tests
+## Отладочные тесты
 
-There are various ways to setup a debugger for your Jest tests. We cover debugging in Chrome and [Visual Studio Code](https://code.visualstudio.com/).
+Существуют различные способы настройки отладчика для ваших Jest-тестов. Мы расскажем об отладке в Chrome и [Visual Studio Code](https://code.visualstudio.com/).
 
->Note: debugging tests requires Node 8 or higher.
+> Примечание: для отладочных тестов требуется Node 8 или более поздней версии.
 
-### Debugging Tests in Chrome
+### Отладочные тесты в Chrome
 
-Add the following to the `scripts` section in your project's `package.json`
+Добавьте следующее в раздел `скрипты` в `package.json` вашего проекта
+
 ```json
 "scripts": {
     "test:debug": "react-scripts --inspect-brk test --runInBand --env=jsdom"
   }
 ```
-Place `debugger;` statements in any test and run:
+
+Поместите инструкции `debugger;` в любой тест и запустите:
+
 ```bash
 $ npm run test:debug
 ```
 
-This will start running your Jest tests, but pause before executing to allow a debugger to attach to the process.
+После этого запустятся ваши тесты Jest, но перед выполнением сделайте паузу, чтобы позволить отладчику подключиться к процессу.
 
-Open the following in Chrome
+Откройте в Chrome следующее
+
 ```
 about:inspect
 ```
 
-After opening that link, the Chrome Developer Tools will be displayed. Select `inspect` on your process and a breakpoint will be set at the first line of the react script (this is done simply to give you time to open the developer tools and to prevent Jest from executing before you have time to do so). Click the button that looks like a "play" button in the upper right hand side of the screen to continue execution. When Jest executes the test that contains the debugger statement, execution will pause and you can examine the current scope and call stack.
+После открытия этой ссылки будут показаны инструменты разработчика Chrome. Выберите `проверять" в вашем процессе, и в первой строке скрипта react будет установлена точка останова (это сделано просто для того, чтобы дать вам время открыть инструменты разработчика и предотвратить выполнение Jest до того, как у вас будет время это сделать). Нажмите кнопку, которая выглядит как кнопка "воспроизвести" в правом верхнем углу экрана, чтобы продолжить выполнение. Когда Jest выполнит тест, содержащий инструкцию отладчика, выполнение будет приостановлено, и вы сможете проверить текущую область действия и стек вызовов.
 
->Note: the --runInBand cli option makes sure Jest runs test in the same process rather than spawning processes for individual tests. Normally Jest parallelizes test runs across processes but it is hard to debug many processes at the same time.
+> Примечание: параметр --runInBand cli гарантирует, что Jest запускает тесты в одном и том же процессе, а не запускает процессы для отдельных тестов. Обычно Jest распараллеливает выполнение тестов в разных процессах, но сложно отлаживать много процессов одновременно.
 
-### Debugging Tests in Visual Studio Code
+### Отладка тестов в Visual Studio Code
 
-Debugging Jest tests is supported out of the box for [Visual Studio Code](https://code.visualstudio.com).
+Отладка Jest-тестов поддерживается в [Visual Studio Code](https://code.visualstudio.com).
 
-Use the following [`launch.json`](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) configuration file:
+Используйте следующий конфигурационный файл [`launch.json`](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations).:
+
 ```
 {
   "version": "0.2.0",
@@ -1695,7 +1715,7 @@ Use the following [`launch.json`](https://code.visualstudio.com/docs/editor/debu
       "name": "Debug CRA Tests",
       "type": "node",
       "request": "launch",
-      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",      
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
       "args": [
         "test",
         "--runInBand",
@@ -1711,65 +1731,65 @@ Use the following [`launch.json`](https://code.visualstudio.com/docs/editor/debu
 }
 ```
 
-## Developing Components in Isolation
+## Разработка компонентов изолированно
 
-Usually, in an app, you have a lot of UI components, and each of them has many different states.
-For an example, a simple button component could have following states:
+Обычно в приложении используется множество компонентов пользовательского интерфейса, и каждый из них имеет множество различных состояний.
+Например, простой компонент кнопки может иметь следующие состояния:
 
-* In a regular state, with a text label.
-* In the disabled mode.
-* In a loading state.
+- В обычном состоянии с текстовой меткой.
+- В отключенном режиме.
+- В состоянии загрузки.
 
-Usually, it’s hard to see these states without running a sample app or some examples.
+Обычно трудно увидеть эти состояния, не запустив образец приложения или несколько примеров.
 
-Create React App doesn’t include any tools for this by default, but you can easily add [Storybook for React](https://storybook.js.org) ([source](https://github.com/storybooks/storybook)) or [React Styleguidist](https://react-styleguidist.js.org/) ([source](https://github.com/styleguidist/react-styleguidist)) to your project. **These are third-party tools that let you develop components and see all their states in isolation from your app**.
+Приложение Create React по умолчанию не содержит никаких инструментов для этого, но вы можете легко добавить [Сборник рассказов для React](https://storybook.js.org) ([источник](https://github.com/storybooks/storybook)) или [Руководство по стилю React](https://react-styleguidist.js.org/) ([источник](https://github.com/styleguidist/react-styleguidist)) в свой проект. **Это сторонние инструменты, которые позволяют разрабатывать компоненты и видеть все их состояния отдельно от вашего приложения **.
 
-![Storybook for React Demo](http://i.imgur.com/7CIAWpB.gif)
+![Сборник рассказов для демонстрации React](http://i.imgur.com/7CIAWpB.gif)
 
-You can also deploy your Storybook or style guide as a static app. This way, everyone in your team can view and review different states of UI components without starting a backend server or creating an account in your app.
+Вы также можете развернуть свой сборник рассказов или руководство по стилю как статическое приложение. Таким образом, все члены вашей команды смогут просматривать различные состояния компонентов пользовательского интерфейса без запуска внутреннего сервера или создания учетной записи в вашем приложении.
 
-### Getting Started with Storybook
+### Начало работы с Storybook
 
-Storybook is a development environment for React UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.
+Storybook - это среда разработки компонентов пользовательского интерфейса React. Она позволяет просматривать библиотеку компонентов, просматривать различные состояния каждого компонента и интерактивно разрабатывать и тестировать компоненты.
 
-First, install the following npm package globally:
+Сначала установите следующий пакет npm глобально:
 
 ```sh
 npm install -g @storybook/cli
 ```
 
-Then, run the following command inside your app’s directory:
+Затем запустите следующую команду в каталоге вашего приложения:
 
 ```sh
 getstorybook
 ```
 
-After that, follow the instructions on the screen.
+После этого следуйте инструкциям на экране.
 
-Learn more about React Storybook:
+Узнайте больше о React Storybook:
 
-* Screencast: [Getting Started with React Storybook](https://egghead.io/lessons/react-getting-started-with-react-storybook)
-* [GitHub Repo](https://github.com/storybooks/storybook)
-* [Documentation](https://storybook.js.org/basics/introduction/)
-* [Snapshot Testing UI](https://github.com/storybooks/storybook/tree/master/addons/storyshots) with Storybook + addon/storyshot
+- Screencast: [Getting Started with React Storybook](https://egghead.io/lessons/react-getting-started-with-react-storybook)
+- [GitHub Repo](https://github.com/storybooks/storybook)
+- [Documentation](https://storybook.js.org/basics/introduction/)
+- [Snapshot Testing UI](https://github.com/storybooks/storybook/tree/master/addons/storyshots) with Storybook + addon/storyshot
 
-### Getting Started with Styleguidist
+### Начало работы с Styleguidist
 
-Styleguidist combines a style guide, where all your components are presented on a single page with their props documentation and usage examples, with an environment for developing components in isolation, similar to Storybook. In Styleguidist you write examples in Markdown, where each code snippet is rendered as a live editable playground.
+Styleguidist сочетает в себе руководство по стилю, в котором все ваши компоненты представлены на одной странице с их реквизитами, документацией и примерами использования, и среду для изолированной разработки компонентов, аналогичную Storybook. В Styleguidist вы пишете примеры в Markdown, где каждый фрагмент кода отображается как интерактивная площадка для редактирования.
 
-First, install Styleguidist:
+Сначала установите Styleguidist:
 
 ```sh
 npm install --save react-styleguidist
 ```
 
-Alternatively you may use `yarn`:
+В качестве альтернативы вы можете использовать `yarn`:
 
 ```sh
 yarn add react-styleguidist
 ```
 
-Then, add these scripts to your `package.json`:
+Затем добавьте эти скрипты в свой `package.json`:
 
 ```diff
    "scripts": {
@@ -1778,137 +1798,117 @@ Then, add these scripts to your `package.json`:
      "start": "react-scripts start",
 ```
 
-Then, run the following command inside your app’s directory:
+Затем запустите следующую команду в каталоге вашего приложения:
 
 ```sh
 npm run styleguide
 ```
 
-After that, follow the instructions on the screen.
+После этого следуйте инструкциям на экране.
 
-Learn more about React Styleguidist:
+Узнайте больше о React Styleguidist:
 
-* [GitHub Repo](https://github.com/styleguidist/react-styleguidist)
-* [Documentation](https://react-styleguidist.js.org/docs/getting-started.html)
+- [GitHub Repo](https://github.com/styleguidist/react-styleguidist)
+- [Documentation](https://react-styleguidist.js.org/docs/getting-started.html)
 
-## Publishing Components to npm
+## Публикация компонентов в npm
 
-Create React App doesn't provide any built-in functionality to publish a component to npm. If you're ready to extract a component from your project so other people can use it, we recommend moving it to a separate directory outside of your project and then using a tool like [nwb](https://github.com/insin/nwb#react-components-and-libraries) to prepare it for publishing.
+Приложение Create React не предоставляет встроенных функций для публикации компонентов в npm. Если вы готовы извлечь компонент из своего проекта, чтобы им могли пользоваться другие пользователи, мы рекомендуем переместить его в отдельный каталог за пределами вашего проекта, а затем использовать такой инструмент, как [nwb](https://github.com/insin/nwb#react-components-and-libraries), чтобы подготовить его к публикации.
 
-## Making a Progressive Web App
+## Создание прогрессивного веб-приложения
 
-By default, the production build is a fully functional, offline-first
-[Progressive Web App](https://developers.google.com/web/progressive-web-apps/).
+По умолчанию производственная сборка является полнофункциональной и доступна только в автономном режиме
+[Прогрессивное веб-приложение](https://developers.google.com/web/progressive-web-apps/).
 
-Progressive Web Apps are faster and more reliable than traditional web pages, and provide an engaging mobile experience:
+Прогрессивные веб-приложения работают быстрее и надежнее, чем традиционные веб-страницы, и обеспечивают привлекательный интерфейс для мобильных устройств:
 
- * All static site assets are cached so that your page loads fast on subsequent visits, regardless of network connectivity (such as 2G or 3G). Updates are downloaded in the background.
- * Your app will work regardless of network state, even if offline. This means your users will be able to use your app at 10,000 feet and on the subway.
- * On mobile devices, your app can be added directly to the user's home screen, app icon and all. You can also re-engage users using web **push notifications**. This eliminates the need for the app store.
+- Все статические ресурсы сайта кэшируются, чтобы ваша страница быстро загружалась при последующих посещениях, независимо от подключения к сети (например, 2G или 3G). Обновления загружаются в фоновом режиме.
+- Ваше приложение будет работать независимо от состояния сети, даже в автономном режиме. Это означает, что ваши пользователи смогут пользоваться вашим приложением на высоте 10 000 футов и в метро.
+- На мобильных устройствах ваше приложение может быть добавлено непосредственно на главный экран пользователя, значок приложения и т.д. Вы также можете повторно привлекать пользователей с помощью веб-уведомлений **push-уведомлений **. Это устраняет необходимость в App Store.
 
-The [`sw-precache-webpack-plugin`](https://github.com/goldhand/sw-precache-webpack-plugin)
-is integrated into production configuration,
-and it will take care of generating a service worker file that will automatically
-precache all of your local assets and keep them up to date as you deploy updates.
-The service worker will use a [cache-first strategy](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/#cache-falling-back-to-network)
-for handling all requests for local assets, including the initial HTML, ensuring
-that your web app is reliably fast, even on a slow or unreliable network.
+Модуль [`sw-precache-webpack-plugin`](https://github.com/goldhand/sw-precache-webpack-plugin)
+интегрирован в производственную конфигурацию
+и отвечает за создание файла service worker, который автоматически
+предварительно кэширует все ваши локальные ресурсы и поддерживает их в актуальном состоянии по мере развертывания обновлений.
+Сотрудник службы поддержки будет использовать [сначала кэширование strategy](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/#cache-falling-back-to-network)
+для обработки всех запросов к локальным ресурсам, включая исходный HTML-код, гарантируя
+надежную работу вашего веб-приложения даже в медленной или ненадежной сети.
 
-### Opting Out of Caching
+### Отказ от кэширования
 
-If you would prefer not to enable service workers prior to your initial
-production deployment, then remove the call to `registerServiceWorker()`
-from [`src/index.js`](src/index.js).
+Если вы предпочитаете не включать service workers до первоначального
+производственного развертывания, удалите вызов `registerServiceWorker()`
+из [`src/index.js`](src/index.js).
 
-If you had previously enabled service workers in your production deployment and
-have decided that you would like to disable them for all your existing users,
-you can swap out the call to `registerServiceWorker()` in
-[`src/index.js`](src/index.js) first by modifying the service worker import:
+Если вы ранее включили service workers в своем производственном развертывании и
+решили отключить их для всех существующих пользователей,
+вы можете заменить вызов на "registerServiceWorker()` в
+[`src/index.js`](src/index.js) сначала путем изменения импорта сервисного работника:
+
 ```javascript
-import { unregister } from './registerServiceWorker';
+import { unregister } from './registerServiceWorker'
 ```
-and then call `unregister()` instead.
-After the user visits a page that has `unregister()`,
-the service worker will be uninstalled. Note that depending on how `/service-worker.js` is served,
-it may take up to 24 hours for the cache to be invalidated.
 
-### Offline-First Considerations
+а затем вызовите вместо этого "отменить регистрацию()".
+После того, как пользователь посетит страницу, на которой есть "отменить регистрацию()",
+сервисный работник будет удален. Обратите внимание, что в зависимости от того, как обрабатывается `/service-worker.js`,
+может потребоваться до 24 часов, чтобы кэш стал недействительным.
 
-1. Service workers [require HTTPS](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#you_need_https),
-although to facilitate local testing, that policy
-[does not apply to `localhost`](http://stackoverflow.com/questions/34160509/options-for-testing-service-workers-via-http/34161385#34161385).
-If your production web server does not support HTTPS, then the service worker
-registration will fail, but the rest of your web app will remain functional.
+### Рекомендации в первую очередь в автономном режиме
 
-1. Service workers are [not currently supported](https://jakearchibald.github.io/isserviceworkerready/)
-in all web browsers. Service worker registration [won't be attempted](src/registerServiceWorker.js)
-on browsers that lack support.
+1. Сервисные работники [требуют HTTPS](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#you_need_https)
+   хотя для облегчения локального тестирования эта политика
+   [не применяется к `localhost`](http://stackoverflow.com/questions/34160509/options-for-testing-service-workers-via-http/34161385#34161385).
+   Если ваш рабочий веб-сервер не поддерживает HTTPS, то сервисный работник
+   регистрация завершится неудачей, но остальная часть вашего веб-приложения останется работоспособной.
 
-1. The service worker is only enabled in the [production environment](#deployment),
-e.g. the output of `npm run build`. It's recommended that you do not enable an
-offline-first service worker in a development environment, as it can lead to
-frustration when previously cached assets are used and do not include the latest
-changes you've made locally.
+1. Сервисные работники [в настоящее время не поддерживаются] (https://jakearchibald.github.io/isserviceworkerready/)
+   во всех веб-браузерах. Регистрация сервисных работников [не будет предпринята] (src/registerServiceWorker.js)
+   в браузерах, которые не поддерживаются.
 
-1. If you *need* to test your offline-first service worker locally, build
-the application (using `npm run build`) and run a simple http server from your
-build directory. After running the build script, `create-react-app` will give
-instructions for one way to test your production build locally and the [deployment instructions](#deployment) have
-instructions for using other methods. *Be sure to always use an
-incognito window to avoid complications with your browser cache.*
+1. Сервисный работник включен только в [производственной среде] (#deployment),
+   например, в выходных данных "npm run build`. Рекомендуется не включать
+   в среду разработки сервисный центр, работающий в автономном режиме, поскольку это может привести к
+   разочарованию, если будут использоваться ранее кэшированные ресурсы, не включающие последние версии.
+   изменения, которые вы внесли локально.
 
-1. If possible, configure your production environment to serve the generated
-`service-worker.js` [with HTTP caching disabled](http://stackoverflow.com/questions/38843970/service-worker-javascript-update-frequency-every-24-hours).
-If that's not possible—[GitHub Pages](#github-pages), for instance, does not
-allow you to change the default 10 minute HTTP cache lifetime—then be aware
-that if you visit your production site, and then revisit again before
-`service-worker.js` has expired from your HTTP cache, you'll continue to get
-the previously cached assets from the service worker. If you have an immediate
-need to view your updated production deployment, performing a shift-refresh
-will temporarily disable the service worker and retrieve all assets from the
-network.
+1. Если вам необходимо протестировать свой автономный сервис worker локально, создайте
+   приложение (используя "npm run build") и запустите простой http-сервер из вашего каталога сборки. После запуска сценария сборки "create-react-app" выдаст инструкции по одному из способов локального тестирования вашей производственной сборки, а в [инструкциях по развертыванию] (#deployment) есть инструкции по использованию других методов. _ Обязательно всегда используйте режим инкогнито, чтобы избежать проблем с кэшем вашего браузера._
 
-1. Users aren't always familiar with offline-first web apps. It can be useful to
-[let the user know](https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux#inform_the_user_when_the_app_is_ready_for_offline_consumption)
-when the service worker has finished populating your caches (showing a "This web
-app works offline!" message) and also let them know when the service worker has
-fetched the latest updates that will be available the next time they load the
-page (showing a "New content is available; please refresh." message). Showing
-this messages is currently left as an exercise to the developer, but as a
-starting point, you can make use of the logic included in [`src/registerServiceWorker.js`](src/registerServiceWorker.js), which
-demonstrates which service worker lifecycle events to listen for to detect each
-scenario, and which as a default, just logs appropriate messages to the
-JavaScript console.
+1. Если возможно, настройте свою производственную среду для обслуживания сгенерированных
+   `service-worker.js` [с HTTP-кэшированием disabled](http://stackoverflow.com/ questions/38843970/service-worker-javascript-update-frequency-every-24-hours).
+   Если это невозможно — например, [GitHub Pages](#github-pages) не
+   позволяет вам изменить 10—минутный срок службы HTTP-кэша по умолчанию, - то имейте в виду что если вы посетите свой рабочий сайт, а затем вернетесь к нему еще раз, прежде чем `service-worker.js` истек срок действия вашего HTTP-кэша, вы продолжите получать
+   ранее кэшированные ресурсы от сервисного работника. Если у вас есть немедленная
+   вам необходимо просмотреть обновленное производственное развертывание, выполнив повторное обновление временно отключит service worker и восстановит все ресурсы из сети.
 
-1. By default, the generated service worker file will not intercept or cache any
-cross-origin traffic, like HTTP [API requests](#integrating-with-an-api-backend),
-images, or embeds loaded from a different domain. If you would like to use a
-runtime caching strategy for those requests, you can [`eject`](#npm-run-eject)
-and then configure the
-[`runtimeCaching`](https://github.com/GoogleChrome/sw-precache#runtimecaching-arrayobject)
-option in the `SWPrecacheWebpackPlugin` section of
-[`webpack.config.prod.js`](../config/webpack.config.prod.js).
+1. Пользователи не всегда знакомы с веб-приложениями, работающими в автономном режиме. Может быть полезно
+   [разрешить пользователю know](https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux#inform_the_user_when_the_app_is_ready_for_offline_consumption)
+   когда сервисный работник завершит заполнение ваших кэшей (отобразив "Этот веб-сайт
+   приложение работает в автономном режиме!"), а также сообщите им, когда сотрудник службы поддержки получит последние обновления, которые будут доступны при следующей загрузке страницы (появится сообщение "Доступно новое содержимое; пожалуйста, обновите"). Показ в настоящее время это сообщение оставлено разработчику в качестве упражнения, но в качестве отправной точки вы можете использовать логику, включенную в [`src/registerServiceWorker.js`](src/registerServiceWorker.js), которая демонстрирует, какие события жизненного цикла service worker следует прослушивать для обнаружения каждого из них сценарий, и который по умолчанию просто записывает соответствующие сообщения в консоль JavaScript.
 
-### Progressive Web App Metadata
+1. По умолчанию сгенерированный файл service worker не будет перехватывать или кэшировать какой-либо перекрестный трафик, такой как HTTP [запросы API] (#интеграция с серверной частью api), изображения или вставки, загруженные из другого домена. Если вы хотите использовать стратегию кэширования во время выполнения для этих запросов, вы можете [`извлечь`](#npm-run-eject) а затем настроить [`runtimeCaching`](https://github.com/GoogleChrome/sw-precache#runtimecaching-arrayobject) выберите параметр в разделе `SWPrecacheWebpackPlugin` в [`webpack.config.prod.js`](../config/webpack.config.prod.js).
 
-The default configuration includes a web app manifest located at
-[`public/manifest.json`](public/manifest.json), that you can customize with
-details specific to your web application.
+### Прогрессивные метаданные веб-приложения
 
-When a user adds a web app to their homescreen using Chrome or Firefox on
-Android, the metadata in [`manifest.json`](public/manifest.json) determines what
-icons, names, and branding colors to use when the web app is displayed.
-[The Web App Manifest guide](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/)
-provides more context about what each field means, and how your customizations
-will affect your users' experience.
+Конфигурация по умолчанию включает манифест веб-приложения, расположенный по адресу
+[`public/manifest.json`] (общедоступный/манифест.json), который вы можете настроить с
+учетом особенностей вашего веб-приложения.
 
-## Analyzing the Bundle Size
+Когда пользователь добавляет веб-приложение на свой рабочий стол с помощью Chrome или Firefox на
+Android, метаданные в [`manifest.json`](public/manifest.json) определяют, какие
+значки, названия и фирменные цвета будут использоваться при отображении веб-приложения.
+[Руководство по манифесту веб-приложения](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/)
+предоставляет более подробную информацию о том, что означает каждое поле и как ваши настройки
+повлияют на работу ваших пользователей.
 
-[Source map explorer](https://www.npmjs.com/package/source-map-explorer) analyzes
-JavaScript bundles using the source maps. This helps you understand where code
-bloat is coming from.
+## Анализ размера пакета
 
-To add Source map explorer to a Create React App project, follow these steps:
+[Обозреватель исходных карт](https://www.npmjs.com/package/source-map-explorer) анализирует
+JavaScript связывается с использованием исходных карт. Это поможет вам понять
+, откуда берется избыточность кода.
+
+Чтобы добавить обозреватель исходных карт в проект Create React App, выполните следующие действия:
 
 ```sh
 npm install --save source-map-explorer
@@ -1930,66 +1930,65 @@ Then in `package.json`, add the following line to `scripts`:
      "test": "react-scripts test --env=jsdom",
 ```
 
-Then to analyze the bundle run the production build then run the analyze
-script.
+Затем, чтобы проанализировать пакет, запустите производственную сборку, а затем запустите сценарий анализа.
 
 ```
 npm run build
 npm run analyze
 ```
 
-## Deployment
+## Развертывание
 
-`npm run build` creates a `build` directory with a production build of your app. Set up your favorite HTTP server so that a visitor to your site is served `index.html`, and requests to static paths like `/static/js/main.<hash>.js` are served with the contents of the `/static/js/main.<hash>.js` file.
+`npm run build` создает каталог "build" с рабочей сборкой вашего приложения. Настройте свой любимый HTTP-сервер таким образом, чтобы посетитель вашего сайта обслуживался "index.html" и отправлял запросы по статическим путям, таким как `/static/js/main.файлы <hash>.js` передаются вместе с содержимым файла `/static/js/main.<hash>.js`.
 
-### Static Server
+### Статический сервер
 
-For environments using [Node](https://nodejs.org/), the easiest way to handle this would be to install [serve](https://github.com/zeit/serve) and let it handle the rest:
+Для сред, использующих [Node](https://nodejs.org/), самым простым способом справиться с этим было бы установить [serve](https://github.com/zeit/serve) и позволить ему обрабатывать все остальное:
 
 ```sh
 npm install -g serve
 serve -s build
 ```
 
-The last command shown above will serve your static site on the port **5000**. Like many of [serve](https://github.com/zeit/serve)’s internal settings, the port can be adjusted using the `-p` or `--port` flags.
+Последняя команда, показанная выше, будет обслуживать ваш статический сайт через порт **5000**. Как и многие внутренние настройки [serve](https://github.com/zeit/serve), порт можно настроить с помощью флагов `-p` или `--port`.
 
-Run this command to get a full list of the options available:
+Запустите эту команду, чтобы получить полный список доступных опций:
 
 ```sh
 serve -h
 ```
 
-### Other Solutions
+### Другие решения
 
-You don’t necessarily need a static server in order to run a Create React App project in production. It works just as fine integrated into an existing dynamic one.
+Вам не обязательно нужен статический сервер для запуска проекта Create React App в рабочей среде. Он прекрасно работает, будучи интегрированным в существующий динамический сервер.
 
-Here’s a programmatic example using [Node](https://nodejs.org/) and [Express](http://expressjs.com/):
+Вот программный пример с использованием [Node](https://nodejs.org/) и [Express](http://expressjs.com/).:
 
 ```javascript
-const express = require('express');
-const path = require('path');
-const app = express();
+const express = require('express')
+const path = require('path')
+const app = express()
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'build')))
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+	res.sendFile(path.join(__dirname, 'build', 'index.html'))
+})
 
-app.listen(9000);
+app.listen(9000)
 ```
 
-The choice of your server software isn’t important either. Since Create React App is completely platform-agnostic, there’s no need to explicitly use Node.
+Выбор вашего серверного программного обеспечения также не важен. Поскольку приложение Create React полностью не зависит от платформы, нет необходимости явно использовать Node.
 
-The `build` folder with static assets is the only output produced by Create React App.
+Папка "build" со статическими ресурсами - это единственный результат, который создает приложение Create React.
 
-However this is not quite enough if you use client-side routing. Read the next section if you want to support URLs like `/todos/42` in your single-page app.
+Однако этого недостаточно, если вы используете маршрутизацию на стороне клиента. Прочитайте следующий раздел, если вы хотите поддерживать URL-адреса типа "/todos/42" в вашем одностраничном приложении.
 
-### Serving Apps with Client-Side Routing
+### Обслуживание приложений с маршрутизацией на стороне клиента
 
-If you use routers that use the HTML5 [`pushState` history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API#Adding_and_modifying_history_entries) under the hood (for example, [React Router](https://github.com/ReactTraining/react-router) with `browserHistory`), many static file servers will fail. For example, if you used React Router with a route for `/todos/42`, the development server will respond to `localhost:3000/todos/42` properly, but an Express serving a production build as above will not.
+Если вы используете маршрутизаторы, которые используют HTML5 [`pushState` history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API#Adding_and_modifying_history_entries) под капотом (например, [React Router](https://github.com/ReactTraining/react-router) с `browserHistory`), многие статические файловые серверы выйдут из строя. Например, если вы использовали React Router с маршрутом для `/todos/42`, сервер разработки ответит на `localhost:3000/todos/42` должным образом, но Express, обслуживающий производственную сборку, как указано выше, не ответит.
 
-This is because when there is a fresh page load for a `/todos/42`, the server looks for the file `build/todos/42` and does not find it. The server needs to be configured to respond to a request to `/todos/42` by serving `index.html`. For example, we can amend our Express example above to serve `index.html` for any unknown paths:
+Это происходит потому, что при загрузке новой страницы для файла "/todos/42" сервер ищет файл `build/todos/42` и не находит его. Сервер должен быть настроен таким образом, чтобы отвечать на запрос "/todos/42", отправляя "index.html`. Например, мы можем изменить наш экспресс-пример выше, чтобы он отправлял `index.html" для любых неизвестных путей:
 
 ```diff
  app.use(express.static(path.join(__dirname, 'build')));
@@ -2000,7 +1999,7 @@ This is because when there is a fresh page load for a `/todos/42`, the server lo
  });
 ```
 
-If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to create a `.htaccess` file in the `public` folder that looks like this:
+Если вы используете [HTTP-сервер Apache](https://httpd.apache.org/), вам необходимо создать файл ".htaccess" в папке "public", который выглядит следующим образом:
 
 ```
     Options -MultiViews
@@ -2009,107 +2008,105 @@ If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to c
     RewriteRule ^ index.html [QSA,L]
 ```
 
-It will get copied to the `build` folder when you run `npm run build`. 
+Он будет скопирован в папку "build", когда вы запустите "npm run build".
 
-If you’re using [Apache Tomcat](http://tomcat.apache.org/), you need to follow [this Stack Overflow answer](https://stackoverflow.com/a/41249464/4878474).
+Если вы используете [Apache Tomcat](http://tomcat.apache.org/), вам нужно следовать [этому ответу на Stack Overflow](https://stackoverflow.com/a/41249464/4878474).
 
-Now requests to `/todos/42` will be handled correctly both in development and in production.
+Теперь запросы к "/todos/42" будут корректно обрабатываться как в процессе разработки, так и в рабочей среде.
 
-On a production build, and in a browser that supports [service workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers),
-the service worker will automatically handle all navigation requests, like for
-`/todos/42`, by serving the cached copy of your `index.html`. This
-service worker navigation routing can be configured or disabled by
-[`eject`ing](#npm-run-eject) and then modifying the
+В рабочей сборке и в браузере, поддерживающем [service workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers),
+service worker будет автоматически обрабатывать все запросы навигации, например, для
+`/todos/42`, используя кэшированную копию вашего "index.html`. Этот
+навигационный маршрут service worker можно настроить или отключить с помощью
+[`извлекать'](#npm-run-eject), а затем изменить параметры
 [`navigateFallback`](https://github.com/GoogleChrome/sw-precache#navigatefallback-string)
-and [`navigateFallbackWhitelist`](https://github.com/GoogleChrome/sw-precache#navigatefallbackwhitelist-arrayregexp)
-options of the `SWPreachePlugin` [configuration](../config/webpack.config.prod.js).
+и [`navigateFallbackWhitelist`](https://github.com/GoogleChrome/sw-precache#navigatefallbackwhitelist-arrayregexp)
+в `SWPreachePlugin` [конфигурации](../config/webpack.config.prod.js).
 
-When users install your app to the homescreen of their device the default configuration will make a shortcut to `/index.html`. This may not work for client-side routers which expect the app to be served from `/`. Edit the web app manifest at [`public/manifest.json`](public/manifest.json) and change `start_url` to match the required URL scheme, for example:
+Когда пользователи устанавливают ваше приложение на рабочий стол своего устройства, в конфигурации по умолчанию используется ярлык "/index.html`. Это может не сработать для маршрутизаторов на стороне клиента, которые ожидают, что приложение будет обслуживаться с помощью `/`. Отредактируйте манифест веб-приложения по адресу [`public/manifest.json`](общедоступный/манифест.json) и измените `start_url`, чтобы он соответствовал требуемой схеме URL, например:
 
 ```js
   "start_url": ".",
 ```
 
-### Building for Relative Paths
+### Построение для относительных путей
 
-By default, Create React App produces a build assuming your app is hosted at the server root.<br>
-To override this, specify the `homepage` in your `package.json`, for example:
+По умолчанию Create React App создает сборку, предполагая, что ваше приложение размещено в корневом каталоге сервера.
+Чтобы переопределить это, укажите `домашнюю страницу` в вашем `package.json`, например:
 
 ```js
   "homepage": "http://mywebsite.com/relativepath",
 ```
 
-This will let Create React App correctly infer the root path to use in the generated HTML file.
+Это позволит приложению Create React правильно указать корневой путь для использования в сгенерированном HTML-файле.
 
-**Note**: If you are using `react-router@^4`, you can root `<Link>`s using the `basename` prop on any `<Router>`.<br>
-More information [here](https://reacttraining.com/react-router/web/api/BrowserRouter/basename-string).<br>
+**Примечание**: Если вы используете "react-router@^4", вы можете рутировать "<Link>", используя параметр "basename`на любом`<Router>`.
+Дополнительная информация [здесь](https://react training.com/react-router/web/api/BrowserRouter/basename-string).<br>
 <br>
-For example:
+Например:
+
 ```js
 <BrowserRouter basename="/calendar"/>
 <Link to="/today"/> // renders <a href="/calendar/today">
 ```
 
-#### Serving the Same Build from Different Paths
+#### Использование одной и той же сборки по разным путям
 
->Note: this feature is available with `react-scripts@0.9.0` and higher.
+> Примечание: эта функция доступна с `react-scripts@0.9.0` и выше.
 
-If you are not using the HTML5 `pushState` history API or not using client-side routing at all, it is unnecessary to specify the URL from which your app will be served. Instead, you can put this in your `package.json`:
+Если вы не используете HTML5 pushState history API или вообще не используете маршрутизацию на стороне клиента, нет необходимости указывать URL, с которого будет отправляться ваше приложение. Вместо этого вы можете поместить это в свой `package.json`:
 
 ```js
   "homepage": ".",
 ```
 
-This will make sure that all the asset paths are relative to `index.html`. You will then be able to move your app from `http://mywebsite.com` to `http://mywebsite.com/relativepath` or even `http://mywebsite.com/relative/path` without having to rebuild it.
+Это позволит убедиться, что все пути к ресурсам совпадают с `index.html`. После этого вы сможете переместить свое приложение с `http://mywebsite.com` на `http://mywebsite.com/relativepath` или даже `http://mywebsite.com/relative/path" без необходимости его перестраивать.
 
 ### [Azure](https://azure.microsoft.com/)
 
-See [this](https://medium.com/@to_pe/deploying-create-react-app-on-microsoft-azure-c0f6686a4321) blog post on how to deploy your React app to Microsoft Azure.
+Смотрите [это](https://medium.com/@to_pe/deploying-create-react-app-on-microsoft-azure-c0f6686a4321) сообщение в блоге о том, как развернуть ваше приложение React в Microsoft Azure.
 
-See [this](https://medium.com/@strid/host-create-react-app-on-azure-986bc40d5bf2#.pycfnafbg) blog post or [this](https://github.com/ulrikaugustsson/azure-appservice-static) repo for a way to use automatic deployment to Azure App Service.
+Смотрите [это](https://medium.com/@strid/host-create-react-app-on-azure-986bc40d5bf2#.pycfnafbg) сообщение в блоге или [это](https://github.com/ulrikaugustsson/azure-appservice-static) репозиторий, чтобы узнать, как использовать автоматическое развертывание в службе приложений Azure.
 
 ### [Firebase](https://firebase.google.com/)
 
-Install the Firebase CLI if you haven’t already by running `npm install -g firebase-tools`. Sign up for a [Firebase account](https://console.firebase.google.com/) and create a new project. Run `firebase login` and login with your previous created Firebase account.
+Установите Firebase CLI, если вы еще этого не сделали, запустив "npm install -g firebase-tools". Зарегистрируйте [учетную запись Firebase](https://console.firebase.google.com/) и создайте новый проект. Запустите `firebase login" и войдите в свою предыдущую учетную запись Firebase.
 
-Then run the `firebase init` command from your project’s root. You need to choose the **Hosting: Configure and deploy Firebase Hosting sites** and choose the Firebase project you created in the previous step. You will need to agree with `database.rules.json` being created, choose `build` as the public directory, and also agree to **Configure as a single-page app** by replying with `y`.
+Затем запустите команду "firebase init" из корневого каталога вашего проекта. Вам нужно выбрать **Хостинг: Настроить и развернуть сайты Firebase Hosting** и выбрать проект Firebase, который вы создали на предыдущем шаге. Вам нужно будет согласиться с созданием "database.rules.json", выбрать "build" в качестве общедоступного каталога, а также согласиться с "Configure в качестве одностраничного приложения", ответив "y`.
 
 ```sh
-    === Project Setup
+=== Настройка проекта
 
-    First, let's associate this project directory with a Firebase project.
-    You can create multiple project aliases by running firebase use --add,
-    but for now we'll just set up a default project.
+    Сначала давайте свяжем этот каталог проекта с проектом Firebase.
+    Вы можете создать несколько псевдонимов проекта, выполнив команду firebase use --add, но сейчас мы просто настроим проект по умолчанию.
 
-    ? What Firebase project do you want to associate as default? Example app (example-app-fd690)
+    ? Какой проект Firebase вы хотите связать по умолчанию? Пример приложения (example-app-fd690)
 
-    === Database Setup
+    === Настройка базы данных
 
-    Firebase Realtime Database Rules allow you to define how your data should be
-    structured and when your data can be read from and written to.
+    Правила базы данных Firebase в режиме реального времени позволяют вам определить, как должны быть структурированы ваши данные и когда их можно считывать и записывать.
 
-    ? What file should be used for Database Rules? database.rules.json
-    ✔  Database Rules for example-app-fd690 have been downloaded to database.rules.json.
-    Future modifications to database.rules.json will update Database Rules when you run
+    ? Какой файл следует использовать для правил базы данных? база данных.правила.json
+    ✔ Правила базы данных, например, app-fd690, были загружены в database.rules.json.
+    Будущие изменения в database.rules.json обновит правила базы данных при запуске
     firebase deploy.
 
-    === Hosting Setup
+    === Настройка хостинга
 
-    Your public directory is the folder (relative to your project directory) that
-    will contain Hosting assets to uploaded with firebase deploy. If you
-    have a build process for your assets, use your build's output directory.
+    Ваш общий каталог - это папка (относительно каталога вашего проекта), которая будет содержать ресурсы хостинга для загрузки с помощью firebase deploy. Если ты
+    если у вас есть процесс сборки для ваших ресурсов, используйте выходной каталог вашей сборки.
 
-    ? What do you want to use as your public directory? build
-    ? Configure as a single-page app (rewrite all urls to /index.html)? Yes
-    ✔  Wrote build/index.html
+    ? Что вы хотите использовать в качестве общедоступного каталога? строить
+    ? Настроить как одностраничное приложение (переписать все URL-адреса на /index.html)? Да
+    ✔ Написал build/index.html
 
-    i  Writing configuration info to firebase.json...
-    i  Writing project information to .firebaserc...
+    я записываю информацию о конфигурации в firebase.json...
+    я записываю информацию о проекте в .firebaserc...
 
-    ✔  Firebase initialization complete!
+    ✔ Инициализация Firebase завершена!
 ```
 
-IMPORTANT: you need to set proper HTTP caching headers for `service-worker.js` file in `firebase.json` file or you will not be able to see changes after first deployment ([issue #2440](https://github.com/facebookincubator/create-react-app/issues/2440)). It should be added inside `"hosting"` key like next:
+ВАЖНО: вам необходимо установить правильные заголовки кэширования HTTP для файла `service-worker.js` в файле `firebase.json`, иначе вы не сможете увидеть изменения после первого развертывания ([проблема #2440](https://github.com/facebookincubator/create-react-app/issues/2440)). Это должно быть добавлено внутри ключа "hosting", как показано ниже:
 
 ```
 {
@@ -2121,29 +2118,29 @@ IMPORTANT: you need to set proper HTTP caching headers for `service-worker.js` f
     ...
 ```
 
-Now, after you create a production build with `npm run build`, you can deploy it by running `firebase deploy`.
+Теперь, после того как вы создадите производственную сборку с помощью "npm run build", вы можете развернуть ее, запустив "firebase deploy`.
 
 ```sh
-    === Deploying to 'example-app-fd690'...
+  === Развертывание в "example-app-fd690"...
 
-    i  deploying database, hosting
-    ✔  database: rules ready to deploy.
-    i  hosting: preparing build directory for upload...
-    Uploading: [==============================          ] 75%✔  hosting: build folder uploaded successfully
-    ✔  hosting: 8 files uploaded successfully
-    i  starting release process (may take several minutes)...
+    я развертываю базу данных, размещаю
+    ✔ база данных: правила готовы к развертыванию.
+    я размещаю: готовлю каталог сборки для загрузки...
+    Загрузка: [============================== ] 75%✔ хостинг: папка сборки успешно загружена
+    ✔ хостинг: 8 файлов успешно загружены
+    я начинаю процесс выпуска (может занять несколько минут)...
 
-    ✔  Deploy complete!
+    ✔ Развертывание завершено!
 
-    Project Console: https://console.firebase.google.com/project/example-app-fd690/overview
-    Hosting URL: https://example-app-fd690.firebaseapp.com
+    Консоль проекта: https://console.firebase.google.com/project/example-app-fd690/overview
+    URL хостинга: https://example-app-fd690.firebaseapp.com
 ```
 
-For more information see [Add Firebase to your JavaScript Project](https://firebase.google.com/docs/web/setup).
+Дополнительные сведения см. в разделе [Добавьте Firebase в свой JavaScript-проект](https://firebase.google.com/docs/web/setup).
 
 ### [GitHub Pages](https://pages.github.com/)
 
->Note: this feature is available with `react-scripts@0.2.0` and higher.
+> Note: this feature is available with `react-scripts@0.2.0` and higher.
 
 #### Step 1: Add `homepage` to `package.json`
 
@@ -2162,13 +2159,13 @@ or for a GitHub user page:
   "homepage": "https://myusername.github.io",
 ```
 
-Create React App uses the `homepage` field to determine the root URL in the built HTML file.
+Приложение Create React использует поле "домашняя страница" для определения корневого URL-адреса в созданном HTML-файле.
 
-#### Step 2: Install `gh-pages` and add `deploy` to `scripts` in `package.json`
+#### Шаг 2: Установите "gh-pages" и добавьте "deploy" в "scripts" в "package.json".
 
-Now, whenever you run `npm run build`, you will see a cheat sheet with instructions on how to deploy to GitHub Pages.
+Теперь всякий раз, когда вы запускаете "npm run build", вы увидите шпаргалку с инструкциями по развертыванию на страницах GitHub.
 
-To publish it at [https://myusername.github.io/my-app](https://myusername.github.io/my-app), run:
+Чтобы опубликовать ее на [https://myusername.github.io/my-app](https://myusername.github.io/my-app), запустите:
 
 ```sh
 npm install --save gh-pages
@@ -2190,13 +2187,14 @@ Add the following scripts in your `package.json`:
     "build": "react-scripts build",
 ```
 
-The `predeploy` script will run automatically before `deploy` is run.
+Сценарий "предварительного развертывания" запустится автоматически перед запуском "развертывания".
 
-If you are deploying to a GitHub user page instead of a project page you'll need to make two
-additional modifications:
+Если вы выполняете развертывание на странице пользователя GitHub, а не на странице проекта, вам потребуется внести два
+дополнительных изменения:
 
-1. First, change your repository's source branch to be any branch other than **master**.
-1. Additionally, tweak your `package.json` scripts to push deployments to **master**:
+1. Сначала измените исходную ветку вашего репозитория на любую другую, кроме **master**.
+1. Кроме того, настройте свои скрипты `package.json`, чтобы отправлять развертывания в **master.**:
+
 ```diff
   "scripts": {
     "predeploy": "npm run build",
@@ -2204,7 +2202,7 @@ additional modifications:
 +   "deploy": "gh-pages -b master -d build",
 ```
 
-#### Step 3: Deploy the site by running `npm run deploy`
+#### Шаг 3: Разверните сайт, выполнив команду `npm run deploy`.
 
 Then run:
 
@@ -2212,28 +2210,28 @@ Then run:
 npm run deploy
 ```
 
-#### Step 4: Ensure your project’s settings use `gh-pages`
+#### Шаг 4: Убедитесь, что в настройках вашего проекта используется `gh-pages`
 
-Finally, make sure **GitHub Pages** option in your GitHub project settings is set to use the `gh-pages` branch:
+Наконец, убедитесь, что параметр "Страницы GitHub" в настройках вашего проекта GitHub настроен на использование ветки `gh-pages`:
 
-<img src="http://i.imgur.com/HUjEr9l.png" width="500" alt="gh-pages branch setting">
+<img src="http://i.imgur.com/HUjEr9l.png" width="500" alt="настройка ветки gh-pages">
 
-#### Step 5: Optionally, configure the domain
+#### Шаг 5: При необходимости настройте домен.
 
-You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
+Вы можете настроить пользовательский домен с помощью GitHub Pages, добавив файл "CNAME" в папку "public/".
 
-#### Notes on client-side routing
+#### Заметки о маршрутизации на стороне клиента
 
-GitHub Pages doesn’t support routers that use the HTML5 `pushState` history API under the hood (for example, React Router using `browserHistory`). This is because when there is a fresh page load for a url like `http://user.github.io/todomvc/todos/42`, where `/todos/42` is a frontend route, the GitHub Pages server returns 404 because it knows nothing of `/todos/42`. If you want to add a router to a project hosted on GitHub Pages, here are a couple of solutions:
+GitHub Pages не поддерживает маршрутизаторы, которые используют HTML5 "pushState" history API (например, React Router использует "browserHistory`). Это связано с тем, что при загрузке новой страницы по URL-адресу, подобному "http://user.github.io/todomvc/todos/42", где "/todos/42" является интерфейсным маршрутом, сервер страниц GitHub возвращает значение 404, потому что ему ничего не известно о `/todos/42`. Если вы хотите добавить маршрутизатор в проект, размещенный на страницах GitHub, вот несколько решений:
 
-* You could switch from using HTML5 history API to routing with hashes. If you use React Router, you can switch to `hashHistory` for this effect, but the URL will be longer and more verbose (for example, `http://user.github.io/todomvc/#/todos/42?_k=yknaj`). [Read more](https://reacttraining.com/react-router/web/api/Router) about different history implementations in React Router.
-* Alternatively, you can use a trick to teach GitHub Pages to handle 404 by redirecting to your `index.html` page with a special redirect parameter. You would need to add a `404.html` file with the redirection code to the `build` folder before deploying your project, and you’ll need to add code handling the redirect parameter to `index.html`. You can find a detailed explanation of this technique [in this guide](https://github.com/rafrex/spa-github-pages).
+- Вы могли бы переключиться с использования HTML5 history API на маршрутизацию с использованием хэшей. Если вы используете React Router, вы можете переключиться на "hashHistory" для достижения этого эффекта, но URL-адрес будет длиннее и более подробный (например, `http://user.github.io/todomvc/#/todos/42?_k=yknaj`). [Подробнее](https://reacttraining.com/react-router/web/api/Router) о различных реализациях истории в React Router.
+- В качестве альтернативы, вы можете использовать трюк, чтобы научить страницы GitHub обрабатывать 404, перенаправив их на вашу страницу "index.html`со специальным параметром перенаправления. Перед развертыванием вашего проекта вам потребуется добавить файл "404.html" с кодом перенаправления в папку "build", а также добавить код, обрабатывающий параметр перенаправления, в`index.html`. Вы можете найти подробное объяснение этого метода [в этом руководстве](https://github.com/rafrex/spa-github-pages).
 
-#### Troubleshooting
+#### Устранение неполадок
 
-##### "/dev/tty: No such a device or address"
+##### "/dev/tty: нет такого устройства или адреса"
 
-If, when deploying, you get `/dev/tty: No such a device or address` or a similar error, try the follwing:
+Если при развертывании вы получаете сообщение "/dev/tty: нет такого устройства или адреса" или аналогичную ошибку, попробуйте выполнить следующее:
 
 1. Create a new [Personal Access Token](https://github.com/settings/tokens)
 2. `git remote set-url origin https://<user>:<token>@github.com/<user>/<repo>` .
@@ -2244,13 +2242,13 @@ If, when deploying, you get `/dev/tty: No such a device or address` or a similar
 Use the [Heroku Buildpack for Create React App](https://github.com/mars/create-react-app-buildpack).<br>
 You can find instructions in [Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration).
 
-#### Resolving Heroku Deployment Errors
+#### Устранение ошибок при развертывании Heroku
 
-Sometimes `npm run build` works locally but fails during deploy via Heroku. Following are the most common cases.
+Иногда "npm run build" работает локально, но при развертывании через Heroku происходит сбой. Ниже приведены наиболее распространенные причины.
 
-##### "Module not found: Error: Cannot resolve 'file' or 'directory'"
+##### "Модуль не найден: Ошибка: Не удается разрешить "файл" или "каталог""
 
-If you get something like this:
+Если вы получаете что-то вроде этого:
 
 ```
 remote: Failed to create a production build. Reason:
@@ -2258,13 +2256,13 @@ remote: Module not found: Error: Cannot resolve 'file' or 'directory'
 MyDirectory in /tmp/build_1234/src
 ```
 
-It means you need to ensure that the lettercase of the file or directory you `import` matches the one you see on your filesystem or on GitHub.
+Это означает, что вам нужно убедиться, что регистр букв в файле или каталоге, который вы "импортируете", совпадает с тем, который вы видите в своей файловой системе или на GitHub.
 
-This is important because Linux (the operating system used by Heroku) is case sensitive. So `MyDirectory` and `mydirectory` are two distinct directories and thus, even though the project builds locally, the difference in case breaks the `import` statements on Heroku remotes.
+Это важно, потому что Linux (операционная система, используемая Heroku) чувствительна к регистру. Таким образом, "MyDirectory" и "mydirectory" - это два разных каталога, и, таким образом, несмотря на то, что проект создается локально, разница в регистре нарушает инструкции "import" в Heroku remotes.
 
-##### "Could not find a required file."
+##### "Не удалось найти требуемый файл".
 
-If you exclude or ignore necessary files from the package you will see a error similar this one:
+Если вы исключите или проигнорируете необходимые файлы из пакета, вы увидите ошибку, аналогичную этой:
 
 ```
 remote: Could not find a required file.
@@ -2279,186 +2277,187 @@ In this case, ensure that the file is there with the proper lettercase and that�
 
 ### [Netlify](https://www.netlify.com/)
 
-**To do a manual deploy to Netlify’s CDN:**
+**Выполнить ручное развертывание в CDN Netlify:**
 
 ```sh
 npm install netlify-cli -g
 netlify deploy
 ```
 
-Choose `build` as the path to deploy.
+Выберите `build` в качестве пути для развертывания.
 
-**To setup continuous delivery:**
+\***\*Чтобы настроить непрерывную доставку:**
 
-With this setup Netlify will build and deploy when you push to git or open a pull request:
+С помощью этой настройки Netlify будет выполнять сборку и развертывание при нажатии на git или открытии запроса на извлечение:
 
-1. [Start a new netlify project](https://app.netlify.com/signup)
-2. Pick your Git hosting service and select your repository
-3. Set `yarn build` as the build command and `build` as the publish directory
-4. Click `Deploy site`
+1. [Запустите новый проект netlify](https://app.netlify.com/signup)
+2. Выберите свой Git-хостинг и репозиторий
+3. Установите `yarn build` в качестве команды сборки и `build` в качестве каталога публикации
+4. Нажмите `Развернуть сайт`
 
-**Support for client-side routing:**
+**Поддержка маршрутизации на стороне клиента:**
 
-To support `pushState`, make sure to create a `public/_redirects` file with the following rewrite rules:
+Для поддержки "pushState" обязательно создайте файл "public/\_redirects" со следующими правилами перезаписи:
 
 ```
 /*  /index.html  200
 ```
 
-When you build the project, Create React App will place the `public` folder contents into the build output.
+Когда вы создадите проект, приложение Create React App поместит содержимое папки `public` в выходные данные сборки.
 
-### [Now](https://zeit.co/now)
+### [Сейчас](https://zeit.co/now)
 
-Now offers a zero-configuration single-command deployment. You can use `now` to deploy your app for free.
+Теперь предлагается развертывание с нулевой конфигурацией с помощью одной команды. Вы можете использовать `now` для бесплатного развертывания своего приложения.
 
-1. Install the `now` command-line tool either via the recommended [desktop tool](https://zeit.co/download) or via node with `npm install -g now`.
+1. Установите инструмент командной строки `now` либо с помощью рекомендуемого [desktop tool](https://zeit.co/download), либо с помощью node с помощью `npm install -g now`.
 
-2. Build your app by running `npm run build`.
+2. Создайте свое приложение, запустив `npm run build`.
 
-3. Move into the build directory by running `cd build`.
+3. Перейдите в каталог сборки, запустив `cd build`.
 
-4. Run `now --name your-project-name` from within the build directory. You will see a **now.sh** URL in your output like this:
+4. Запустите `now -name your-project-name` из каталога сборки. В выходных данных вы увидите URL-адрес **now.sh**, который выглядит следующим образом:
 
-    ```
-    > Ready! https://your-project-name-tpspyhtdtk.now.sh (copied to clipboard)
-    ```
+   ```
+   > Готово! https://your-project-name-tpspyhtdtk.now.sh (скопировано в буфер обмена)
+   ```
 
-    Paste that URL into your browser when the build is complete, and you will see your deployed app.
+   Вставьте этот URL-адрес в свой браузер, когда сборка будет завершена, и вы увидите свое развернутое приложение.
 
-Details are available in [this article.](https://zeit.co/blog/unlimited-static)
+Подробности доступны в [этой статье.](https://zeit.co/blog/unlimited-static)
 
-### [S3](https://aws.amazon.com/s3) and [CloudFront](https://aws.amazon.com/cloudfront/)
+### [S3](https://aws.amazon.com/s3) и [CloudFront](https://aws.amazon.com/cloudfront/)
 
-See this [blog post](https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af) on how to deploy your React app to Amazon Web Services S3 and CloudFront.
+Смотрите это [сообщение в блоге](https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af) о том, как развернуть ваше приложение React в Amazon Web Services S3 и CloudFront.
 
 ### [Surge](https://surge.sh/)
 
-Install the Surge CLI if you haven’t already by running `npm install -g surge`. Run the `surge` command and log in you or create a new account.
+Установите интерфейс командной строки Surge, если вы еще этого не сделали, запустив "npm install -g surge". Выполните команду "surge" и войдите в систему или создайте новую учетную запись.
 
-When asked about the project path, make sure to specify the `build` folder, for example:
+Когда вас спросят о пути к проекту, обязательно укажите папку "сборка", например:
 
 ```sh
        project path: /path/to/project/build
 ```
 
-Note that in order to support routers that use HTML5 `pushState` API, you may want to rename the `index.html` in your build folder to `200.html` before deploying to Surge. This [ensures that every URL falls back to that file](https://surge.sh/help/adding-a-200-page-for-client-side-routing).
+Обратите внимание, что для поддержки маршрутизаторов, использующих HTML5 "pushState" API, вы можете переименовать `index.html` в вашей папке сборки в `200.html` перед развертыванием в Surge. Это [гарантирует, что все URL-адреса будут возвращаться к этому файлу](https://surge.sh/help/adding-a-200-page-for-client-side-routing).
 
-## Advanced Configuration
+## Расширенная настройка
 
-You can adjust various development and production settings by setting environment variables in your shell or with [.env](#adding-development-environment-variables-in-env).
+Вы можете настроить различные параметры разработки и производства, установив переменные среды в своей командной строке или с помощью [.env](#добавление переменных среды разработки в env).
 
-Variable | Development | Production | Usage
-:--- | :---: | :---: | :---
-BROWSER | :white_check_mark: | :x: | By default, Create React App will open the default system browser, favoring Chrome on macOS. Specify a [browser](https://github.com/sindresorhus/opn#app) to override this behavior, or set it to `none` to disable it completely. If you need to customize the way the browser is launched, you can specify a node script instead. Any arguments passed to `npm start` will also be passed to this script, and the url where your app is served will be the last argument. Your script's file name must have the `.js` extension.
-HOST | :white_check_mark: | :x: | By default, the development web server binds to `localhost`. You may use this variable to specify a different host.
-PORT | :white_check_mark: | :x: | By default, the development web server will attempt to listen on port 3000 or prompt you to attempt the next available port. You may use this variable to specify a different port.
-HTTPS | :white_check_mark: | :x: | When set to `true`, Create React App will run the development server in `https` mode.
-PUBLIC_URL | :x: | :white_check_mark: | Create React App assumes your application is hosted at the serving web server's root or a subpath as specified in [`package.json` (`homepage`)](#building-for-relative-paths). Normally, Create React App ignores the hostname. You may use this variable to force assets to be referenced verbatim to the url you provide (hostname included). This may be particularly useful when using a CDN to host your application.
-CI | :large_orange_diamond: | :white_check_mark: | When set to `true`, Create React App treats warnings as failures in the build. It also makes the test runner non-watching. Most CIs set this flag by default.
-REACT_EDITOR | :white_check_mark: | :x: | When an app crashes in development, you will see an error overlay with clickable stack trace. When you click on it, Create React App will try to determine the editor you are using based on currently running processes, and open the relevant source file. You can [send a pull request to detect your editor of choice](https://github.com/facebookincubator/create-react-app/issues/2636). Setting this environment variable overrides the automatic detection. If you do it, make sure your systems [PATH](https://en.wikipedia.org/wiki/PATH_(variable)) environment variable points to your editor’s bin folder. You can also set it to `none` to disable it completely.
-CHOKIDAR_USEPOLLING | :white_check_mark: | :x: | When set to `true`, the watcher runs in polling mode, as necessary inside a VM. Use this option if `npm start` isn't detecting changes.
-GENERATE_SOURCEMAP | :x: | :white_check_mark: | When set to `false`, source maps are not generated for a production build. This solves OOM issues on some smaller machines.
-NODE_PATH | :white_check_mark: |  :white_check_mark: | Same as [`NODE_PATH` in Node.js](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders), but only relative folders are allowed. Can be handy for emulating a monorepo setup by setting `NODE_PATH=src`.
+| Variable            |      Development       |     Production     | Usage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| :------------------ | :--------------------: | :----------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BROWSER             |   :white_check_mark:   |        :x:         | By default, Create React App will open the default system browser, favoring Chrome on macOS. Specify a [browser](https://github.com/sindresorhus/opn#app) to override this behavior, or set it to `none` to disable it completely. If you need to customize the way the browser is launched, you can specify a node script instead. Any arguments passed to `npm start` will also be passed to this script, and the url where your app is served will be the last argument. Your script's file name must have the `.js` extension.                                                                                                                                                |
+| HOST                |   :white_check_mark:   |        :x:         | By default, the development web server binds to `localhost`. You may use this variable to specify a different host.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| PORT                |   :white_check_mark:   |        :x:         | By default, the development web server will attempt to listen on port 3000 or prompt you to attempt the next available port. You may use this variable to specify a different port.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| HTTPS               |   :white_check_mark:   |        :x:         | When set to `true`, Create React App will run the development server in `https` mode.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| PUBLIC_URL          |          :x:           | :white_check_mark: | Create React App assumes your application is hosted at the serving web server's root or a subpath as specified in [`package.json` (`homepage`)](#building-for-relative-paths). Normally, Create React App ignores the hostname. You may use this variable to force assets to be referenced verbatim to the url you provide (hostname included). This may be particularly useful when using a CDN to host your application.                                                                                                                                                                                                                                                        |
+| CI                  | :large_orange_diamond: | :white_check_mark: | When set to `true`, Create React App treats warnings as failures in the build. It also makes the test runner non-watching. Most CIs set this flag by default.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| REACT_EDITOR        |   :white_check_mark:   |        :x:         | When an app crashes in development, you will see an error overlay with clickable stack trace. When you click on it, Create React App will try to determine the editor you are using based on currently running processes, and open the relevant source file. You can [send a pull request to detect your editor of choice](https://github.com/facebookincubator/create-react-app/issues/2636). Setting this environment variable overrides the automatic detection. If you do it, make sure your systems [PATH](<https://en.wikipedia.org/wiki/PATH_(variable)>) environment variable points to your editor’s bin folder. You can also set it to `none` to disable it completely. |
+| CHOKIDAR_USEPOLLING |   :white_check_mark:   |        :x:         | When set to `true`, the watcher runs in polling mode, as necessary inside a VM. Use this option if `npm start` isn't detecting changes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| GENERATE_SOURCEMAP  |          :x:           | :white_check_mark: | When set to `false`, source maps are not generated for a production build. This solves OOM issues on some smaller machines.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| NODE_PATH           |   :white_check_mark:   | :white_check_mark: | Same as [`NODE_PATH` in Node.js](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders), but only relative folders are allowed. Can be handy for emulating a monorepo setup by setting `NODE_PATH=src`.                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-## Troubleshooting
+## Устранение неполадок
 
-### `npm start` doesn’t detect changes
+### `npm start` не обнаруживает изменений
 
-When you save a file while `npm start` is running, the browser should refresh with the updated code.<br>
-If this doesn’t happen, try one of the following workarounds:
+При сохранении файла во время работы "npm start" браузер должен обновиться с обновленным кодом.
+Если этого не произойдет, попробуйте одно из следующих решений.:
 
-* If your project is in a Dropbox folder, try moving it out.
-* If the watcher doesn’t see a file called `index.js` and you’re referencing it by the folder name, you [need to restart the watcher](https://github.com/facebookincubator/create-react-app/issues/1164) due to a Webpack bug.
-* Some editors like Vim and IntelliJ have a “safe write” feature that currently breaks the watcher. You will need to disable it. Follow the instructions in [“Adjusting Your Text Editor”](https://webpack.js.org/guides/development/#adjusting-your-text-editor).
-* If your project path contains parentheses, try moving the project to a path without them. This is caused by a [Webpack watcher bug](https://github.com/webpack/watchpack/issues/42).
-* On Linux and macOS, you might need to [tweak system settings](https://github.com/webpack/docs/wiki/troubleshooting#not-enough-watchers) to allow more watchers.
-* If the project runs inside a virtual machine such as (a Vagrant provisioned) VirtualBox, create an `.env` file in your project directory if it doesn’t exist, and add `CHOKIDAR_USEPOLLING=true` to it. This ensures that the next time you run `npm start`, the watcher uses the polling mode, as necessary inside a VM.
+- Если ваш проект находится в папке Dropbox, попробуйте переместить его оттуда.
+- Если программа просмотра не видит файл с именем "index.js", а вы ссылаетесь на него по имени папки, вам [необходимо перезапустить программу просмотра](https://github.com/facebookincubator/create-react-app/issues/1164) из-за ошибки Webpack.
+- В некоторых редакторах, таких как Vim и IntelliJ, есть функция “безопасной записи”, которая в настоящее время нарушает работу наблюдателя. Вам нужно будет отключить ее. Следуйте инструкциям в разделе [“Настройка текстового редактора”](https://webpack.js.org/guides/development/#adjusting-your-text-editor).
+- Если путь к вашему проекту содержит круглые скобки, попробуйте переместить проект в путь без них. Это вызвано [ошибкой Webpack watcher](https://github.com/webpack/watchpack/issues/42).
+- В Linux и macOS вам может потребоваться [изменить системные настройки](https://github.com/webpack/docs/wiki/troubleshooting#not-enough-watchers), чтобы включить больше наблюдателей.
+- Если проект выполняется на виртуальной машине, такой как (Vagrant provisioned) VirtualBox, создайте файл `.env` в каталоге вашего проекта, если он не существует, и добавьте к нему `CHOKIDAR_USEPOLLING=true`. Это гарантирует, что при следующем запуске "npm start" наблюдатель будет использовать режим опроса, если это необходимо внутри виртуальной машины.
 
-If none of these solutions help please leave a comment [in this thread](https://github.com/facebookincubator/create-react-app/issues/659).
+Если ни одно из этих решений не поможет, пожалуйста, оставьте комментарий [в этой теме](https://github.com/facebookincubator/create-react-app/issues/659).
 
-### `npm test` hangs on macOS Sierra
+### "npm-тест` зависает в macOS Sierra
 
-If you run `npm test` and the console gets stuck after printing `react-scripts test --env=jsdom` to the console there might be a problem with your [Watchman](https://facebook.github.io/watchman/) installation as described in [facebookincubator/create-react-app#713](https://github.com/facebookincubator/create-react-app/issues/713).
+Если вы запустите "npm test" и консоль зависнет после вывода "react-scripts test --env=jsdom" на консоль, возможно, возникла проблема с вашей установкой [Watchman](https://facebook.github.io/watchman/), как описано в [facebookincubator/create-react-app#713](https://github.com/facebookincubator/create-react-app/issues/713).
 
-We recommend deleting `node_modules` in your project and running `npm install` (or `yarn` if you use it) first. If it doesn't help, you can try one of the numerous workarounds mentioned in these issues:
+Мы рекомендуем сначала удалить "node_modules" в вашем проекте и запустить "npm install" (или "yarn", если вы его используете). Если это не поможет, вы можете попробовать одно из многочисленных обходных решений, упомянутых в этих вопросах:
 
-* [facebook/jest#1767](https://github.com/facebook/jest/issues/1767)
-* [facebook/watchman#358](https://github.com/facebook/watchman/issues/358)
-* [ember-cli/ember-cli#6259](https://github.com/ember-cli/ember-cli/issues/6259)
+- [facebook/шутка#1767](https://github.com/facebook/jest/issues/1767)
+- [facebook/сторож#358](https://github.com/facebook/watchman/issues/358)
+- [ember-cli/эмбер-кли#6259](https://github.com/ember-cli/ember-cli/issues/6259)
 
-It is reported that installing Watchman 4.7.0 or newer fixes the issue. If you use [Homebrew](http://brew.sh/), you can run these commands to update it:
+Сообщается, что установка Watchman версии 4.7.0 или новее устраняет проблему. Если вы используете [Homebrew](http://brew.sh/), вы можете запустить эти команды, чтобы обновить его.:
 
 ```
-watchman shutdown-server
-brew update
-brew reinstall watchman
+выключение watchman-
+обновление сервера
+brew, переустановка watchman
 ```
 
-You can find [other installation methods](https://facebook.github.io/watchman/docs/install.html#build-install) on the Watchman documentation page.
+Вы можете найти [другие способы установки](https://facebook.github.io/watchman/docs/install.html#build-install) на странице документации Watchman.
 
-If this still doesn’t help, try running `launchctl unload -F ~/Library/LaunchAgents/com.github.facebook.watchman.plist`.
+Если это по-прежнему не помогает, попробуйте запустить "launchctl unload -F ~/Library/LaunchAgents/com.github.facebook.watchman.plist`.
 
-There are also reports that *uninstalling* Watchman fixes the issue. So if nothing else helps, remove it from your system and try again.
+Также есть сообщения о том, что _uninstalling_ Watchman устраняет проблему. Поэтому, если больше ничего не поможет, удалите его из своей системы и повторите попытку.
 
-### `npm run build` exits too early
+### `npm run build` завершается слишком рано
 
-It is reported that `npm run build` can fail on machines with limited memory and no swap space, which is common in cloud environments. Even with small projects this command can increase RAM usage in your system by hundreds of megabytes, so if you have less than 1 GB of available memory your build is likely to fail with the following message:
+Сообщается, что "npm run build" может завершиться ошибкой на компьютерах с ограниченной памятью и отсутствием пространства подкачки, что часто встречается в облачных средах. Даже в небольших проектах эта команда может увеличить использование оперативной памяти в вашей системе на сотни мегабайт, поэтому, если у вас меньше 1 ГБ доступной памяти, ваша сборка, скорее всего, завершится ошибкой со следующим сообщением:
 
->  The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
+> Ошибка сборки произошла из-за слишком раннего завершения процесса. Вероятно, это означает, что в системе закончилась память или кто-то вызвал "kill -9" в процессе.
 
-If you are completely sure that you didn't terminate the process, consider [adding some swap space](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04) to the machine you’re building on, or build the project locally.
+Если вы полностью уверены, что не завершили процесс, подумайте о том, чтобы [добавить немного места для подкачки] (https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04) на компьютере, на котором вы создаете, или создайте проект локально.
 
-### `npm run build` fails on Heroku
+### В Heroku не удается выполнить сборку с помощью npm
 
-This may be a problem with case sensitive filenames.
-Please refer to [this section](#resolving-heroku-deployment-errors).
+Возможно, проблема в именах файлов, чувствительных к регистру.
+Пожалуйста, ознакомьтесь с [этим разделом] (#устранение ошибок при развертывании heroku).
 
-### Moment.js locales are missing
+### Moment.js отсутствуют языковые настройки
 
-If you use a [Moment.js](https://momentjs.com/), you might notice that only the English locale is available by default. This is because the locale files are large, and you probably only need a subset of [all the locales provided by Moment.js](https://momentjs.com/#multiple-locale-support).
+Если вы используете [Moment.js](https://momentjs.com/), вы можете заметить, что по умолчанию доступна только английская локаль. Это связано с тем, что файлы языковых стандартов имеют большой размер, и вам, вероятно, понадобится только подмножество [всех языковых стандартов, предоставленных Moment.js](https://momentjs.com/#multiple-locale-support).
 
-To add a specific Moment.js locale to your bundle, you need to import it explicitly.<br>
-For example:
+Чтобы добавить определенный языковой стандарт Moment.js в свой пакет, вам необходимо импортировать его в явном виде.<br>
+Например:
 
 ```js
-import moment from 'moment';
-import 'moment/locale/fr';
+import moment from 'moment'
+import 'moment/locale/fr'
 ```
 
-If import multiple locales this way, you can later switch between them by calling `moment.locale()` with the locale name:
+Если импортировать таким образом несколько языковых стандартов, позже вы сможете переключаться между ними, вызвав `moment.locale()` с именем языкового стандарта:
 
 ```js
-import moment from 'moment';
-import 'moment/locale/fr';
-import 'moment/locale/es';
+import moment from 'moment'
+import 'moment/locale/fr'
+import 'moment/locale/es'
 
 // ...
 
-moment.locale('fr');
+moment.locale('fr')
 ```
 
-This will only work for locales that have been explicitly imported before.
+Это будет работать только для локалей, которые были явно импортированы ранее.
 
-### `npm run build` fails to minify
+### `npm run build` не удается минимизировать
 
-Some third-party packages don't compile their code to ES5 before publishing to npm. This often causes problems in the ecosystem because neither browsers (except for most modern versions) nor some tools currently support all ES6 features. We recommend to publish code on npm as ES5 at least for a few more years.
+Некоторые сторонние пакеты не компилируют свой код в ES5 перед публикацией в npm. Это часто вызывает проблемы в экосистеме, поскольку ни браузеры (за исключением большинства современных версий), ни некоторые инструменты в настоящее время не поддерживают все функции ES6. Мы рекомендуем публиковать код на npm как ES5, по крайней мере, еще несколько лет.
 
 <br>
-To resolve this:
+Чтобы решить эту проблему:
 
-1. Open an issue on the dependency's issue tracker and ask that the package be published pre-compiled.
-  * Note: Create React App can consume both CommonJS and ES modules. For Node.js compatibility, it is recommended that the main entry point is CommonJS. However, they can optionally provide an ES module entry point with the `module` field in `package.json`. Note that **even if a library provides an ES Modules version, it should still precompile other ES6 features to ES5 if it intends to support older browsers**.
+1. Откройте проблему в системе отслеживания проблем зависимостей и попросите опубликовать предварительно скомпилированный пакет.
 
-2. Fork the package and publish a corrected version yourself. 
+- Примечание: Приложение Create React может использовать как модули CommonJS, так и ES. Для Node.js для обеспечения совместимости рекомендуется, чтобы основной точкой входа был CommonJS. Однако они могут дополнительно предоставить точку входа в модуль ES с полем "module" в "package.json`. Обратите внимание, что ** даже если библиотека предоставляет версию модулей ES, она все равно должна предварительно скомпилировать другие функции ES6 в ES5, если она намерена поддерживать более старые браузеры **.
 
-3. If the dependency is small enough, copy it to your `src/` folder and treat it as application code.
+2. Разветвите пакет и опубликуйте исправленную версию самостоятельно.
 
-In the future, we might start automatically compiling incompatible third-party modules, but it is not currently supported. This approach would also slow down the production builds.
+3. Если зависимость достаточно мала, скопируйте ее в свою папку "src/" и обрабатывайте как код приложения.
 
-## Alternatives to Ejecting
+В будущем мы могли бы начать автоматическую компиляцию несовместимых модулей сторонних производителей, но в настоящее время это не поддерживается. Такой подход также замедлит выполнение производственных сборок.
 
-[Ejecting](#npm-run-eject) lets you customize anything, but from that point on you have to maintain the configuration and scripts yourself. This can be daunting if you have many similar projects. In such cases instead of ejecting we recommend to *fork* `react-scripts` and any other packages you need. [This article](https://auth0.com/blog/how-to-configure-create-react-app/) dives into how to do it in depth. You can find more discussion in [this issue](https://github.com/facebookincubator/create-react-app/issues/682).
+## Альтернативы удалению
 
-## Something Missing?
+[Извлечение](#npm-run-eject) позволяет настраивать все, что угодно, но с этого момента вам придется поддерживать конфигурацию и сценарии самостоятельно. Это может оказаться сложной задачей, если у вас много похожих проектов. В таких случаях вместо удаления мы рекомендуем использовать "react-scripts" и любые другие необходимые вам пакеты. [В этой статье] (https://auth0.com/blog/how-to-configure-create-react-app/) подробно рассказывается о том, как это сделать. Вы можете найти более подробное обсуждение в [этом выпуске](https://github.com/facebookincubator/create-react-app/issues/682).
 
-If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+## Чего-то не хватает?
+
+Если у вас есть идеи о других рецептах, которые должны быть представлены на этой странице, [дайте нам знать](https://github.com/facebookincubator/create-react-app/issues) или [поделитесь своим мнением some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
